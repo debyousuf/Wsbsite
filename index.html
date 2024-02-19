@@ -1,730 +1,1150 @@
-<!doctype html>  
-<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
-<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
-<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
-<!--[if (gt IE 7)|!(IE)]><!-->
-<html lang="en-us"><!--<![endif]-->
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
 	<meta charset="utf-8">
-	
-	<title>Arcon Studio Multi Purpose Landing Template</title>
-	
-	<meta name="description" content="">
-	<meta name="author" content="Trendy Theme">
-	<meta name="copyright" content="Trendy Theme">
-	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
-	<meta name="date" content="2015-11-18T00:00:00+01:00">
-	
-	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
-	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
-	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<title>Ollya</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	
-	
-	<script src="assets/js/jquery.js"></script>
-	
-	<script src="assets/js/jquery.scrollTo.js"></script>
-	<script src="assets/js/jquery.easing.js"></script>
-	
-	<script>document.createElement('section');var duration='500',easing='swing';</script>
-	<script src="assets/js/script.js"></script>
-	
-	<style>
-		html{background-color:#FFFFFF;color:#383838;}
-		::-moz-selection{background:#444444;color:#DDDDDD;}
-		::selection{background:#444444;color:#DDDDDD;}
-		#documenter_sidebar #documenter_logo{background-image:url();}
-		a{color:#FF2A40;}
-		.btn {
-			border-radius:3px;
-		}
-		.btn-primary {
-			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
-			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
-			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
-			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
-			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
-			  background-image: linear-gradient(top, #0088CC, #0044CC);
-			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
-			  border-color: #0044CC #0044CC #bfbfbf;
-			  color:#FFFFFF;
-		}
-		.btn-primary:hover,
-		.btn-primary:active,
-		.btn-primary.active,
-		.btn-primary.disabled,
-		.btn-primary[disabled] {
-		  border-color: #0088CC #0088CC #bfbfbf;
-		  background-color: #0044CC;
-		}
-		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
-		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
-		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
-		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
-		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
-		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
-		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
-		#documenter_copyright{display:block !important;visibility:visible !important;}
-	</style>
-	
+	<!-- site favicon -->
+	<link rel="icon" type="image/png" href="assets/images/favicon.png">
+	<!-- Place favicon.ico in the root directory -->
+
+	<!-- All stylesheet and icons css  -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
 </head>
-<body class="documenter-project-69studio-html5-responsive-agency-template">
-	<div id="documenter_sidebar">
-		<a href="#documenter_cover" id="documenter_logo"></a>
-		<ul id="documenter_nav">
-			<li><a class="current" href="#documenter_cover">Start</a></li>
-				
-			<li><a href="#overview" title="Overview">Overview</a></li>
-			<li><a href="#file_code_structure" title="File & Code Structure">File & Code Structure</a>
-				<ul>
-					<li><a href="#file_code_structure_folders">Folders</a></li>
-					<li><a href="#file_code_structure_html_structure">HTML Structure</a></li>
-				</ul>
-			</li>
-			<li><a href="#navigation" title="Navigation">Navigation</a></li>
-			<li><a href="#icons" title="Icons">Icons</a></li>
-			<li><a href="#hero_units" title="Hero Units">Hero Units</a></li>
-			<li><a href="#shortcodes" title="Shortcodes">Shortcodes</a></li>
-			<li><a href="#html5_video" title="HTML5 Video">HTML5 Video</a></li>
-			<li><a href="#google_map" title="Google Map">Google Map</a></li>
-			<li><a href="#contact_form" title="Contact Form">Contact Form</a></li>
-			<li><a href="#sources_credits" title="Sources & Credits">Sources & Credits</a>
-				<ul>
-					<li><a href="#sources_credits_html_css">HTML/CSS</a></li>
-					<li><a href="#sources_credits_fonts">Fonts</a></li>
-					<li><a href="#sources_credits_javascripts">JavaScripts</a></li>
-				</ul>
-			</li>
 
-		</ul>
-		<div id="documenter_copyright">Copyright Designs Ninja 2017<br>
-		made with the <a href="http://rxa.li/documenter">Documenter v1.0</a> 
+<body>
+	<!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+	<!-- preloader ending here -->
+
+
+	<!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+
+    <!-- ================> header section start here <================== -->
+    <header class="header" id="navbar">
+		<div class="header__bottom">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg">
+					<a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo.png" alt="logo"></a>
+					<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler--icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+						<div class="navbar-nav mainmenu">
+							<ul>
+								<li class="active">
+									<a href="#0">Home</a>
+									<ul>
+										<li><a href="index.html" class="active">Home Page One</a></li>
+										<li><a href="index-2.html">Home Page Two</a></li>
+										<li><a href="index-3.html">Home Page Three</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#0">Pages</a>
+									<ul>
+										<li><a href="about.html">About Us</a></li>
+                                        <li><a href="membership.html">Membership</a></li>
+                                        <li><a href="comingsoon.html">comingsoon</a></li>
+                                        <li><a href="404.html">404</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#0">Community</a>
+									<ul>
+										<li><a href="community.html">Community</a></li>
+										<li><a href="group.html">All Group</a></li>
+										<li><a href="members.html">All Members</a></li>
+										<li><a href="activity.html">Activity</a></li>
+
+									</ul>
+								</li>
+								<li>
+									<a href="#0">Shops</a>
+									<ul>
+										<li><a href="shop.html">Product</a></li>
+										<li><a href="shop-single.html">Product Details</a></li>
+										<li><a href="shop-cart.html">Product Cart</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#0">Blogs</a>
+									<ul>
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="blog-2.html">Blog Style Two</a></li>
+										<li><a href="blog-single.html">Blog Details</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">contact</a></li>
+							</ul>
+						</div>
+						<div class="header__more">
+                            <button class="default-btn dropdown-toggle" type="button" id="moreoption" data-bs-toggle="dropdown" aria-expanded="false">My Account</button>
+                            <ul class="dropdown-menu" aria-labelledby="moreoption">
+                                <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                                <li><a class="dropdown-item" href="register.html">Sign Up</a></li>
+                            </ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+    </header>
+    <!-- ================> header section end here <================== -->
+
+
+    <!-- ================> Banner section start here <================== -->
+	<div class="banner padding-top padding-bottom bg_img" style="background-image: url(assets/images/banner/bg.jpg);">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6 col-12">
+					<div class="banner__content wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
+						<div class="banner__title">
+							<h2>Find your ture love</h2>
+							<p>Serious dating with your perfect match is just a click away.</p>
+						</div>
+						<div class="banner__form">
+							<form action="#">
+								<div class="banner__list">
+									<label>I am a</label>
+									<div class="row">
+										<div class="col-6">
+											<label class="banner__inputlist" for="male">
+												<input type="radio" id="male" name="me" class="male" checked>
+												<span>Male</span>
+												<span class="banner__inputlist--icon"><i class="fa-solid fa-mars"></i></span>
+											</label>
+										</div>
+										<div class="col-6">
+											<label class="banner__inputlist" for="female">
+												<input type="radio" id="female" name="me" class="female">
+												<span>Female</span>
+												<span class="banner__inputlist--icon"><i class="fa-solid fa-venus"></i></span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="banner__list">
+									<label>Looking for</label>
+									<div class="row">
+										<div class="col-6">
+											<label class="banner__inputlist" for="male2">
+												<input type="radio" id="male2" name="me2" class="male">
+												<span>Male</span>
+												<span class="banner__inputlist--icon"><i class="fa-solid fa-mars"></i></span>
+											</label>
+										</div>
+										<div class="col-6">
+											<label class="banner__inputlist" for="female2">
+												<input type="radio" id="female2" name="me2" class="female" checked>
+												<span>Female</span>
+												<span class="banner__inputlist--icon"><i class="fa-solid fa-venus"></i></span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="banner__list">
+									<label>Age</label>
+									<div class="row">
+										<div class="col-6">
+											<div class="banner__inputlist">
+												<select>
+													<option value="18" selected>18</option>
+													<option value="19">19</option>
+													<option value="20">20</option>
+													<option value="21">21</option>
+													<option value="22">22</option>
+													<option value="23">23</option>
+													<option value="24">24</option>
+													<option value="25">25</option>
+													<option value="26">26</option>
+													<option value="27">27</option>
+													<option value="28">28</option>
+													<option value="29">29</option>
+													<option value="30">30</option>
+													<option value="31">31</option>
+													<option value="32">32</option>
+													<option value="33">33</option>
+													<option value="34">34</option>
+													<option value="35">35</option>
+													<option value="36">36</option>
+													<option value="37">37</option>
+													<option value="38">38</option>
+													<option value="39">39</option>
+													<option value="40">40</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="banner__inputlist">
+												<select>
+													<option value="18">18</option>
+													<option value="19">19</option>
+													<option value="20">20</option>
+													<option value="21">21</option>
+													<option value="22">22</option>
+													<option value="23">23</option>
+													<option value="24">24</option>
+													<option value="25" selected>25</option>
+													<option value="26">26</option>
+													<option value="27">27</option>
+													<option value="28">28</option>
+													<option value="29">29</option>
+													<option value="30">30</option>
+													<option value="31">31</option>
+													<option value="32">32</option>
+													<option value="33">33</option>
+													<option value="34">34</option>
+													<option value="35">35</option>
+													<option value="36">36</option>
+													<option value="37">37</option>
+													<option value="38">38</option>
+													<option value="39">39</option>
+													<option value="40">40</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="banner__list">
+									<label>Country</label>
+									<div class="row">
+										<div class="col-12">
+											<div class="banner__inputlist">
+												<select id="country" name="country">
+													<option value="Afganistan">Afghanistan</option>
+													<option value="Albania">Albania</option>
+													<option value="Algeria">Algeria</option>
+													<option value="American Samoa">American Samoa</option>
+													<option value="Andorra">Andorra</option>
+													<option value="Angola">Angola</option>
+													<option value="Anguilla">Anguilla</option>
+													<option value="Antigua & Barbuda">Antigua & Barbuda</option>
+													<option value="Argentina">Argentina</option>
+													<option value="Armenia">Armenia</option>
+													<option value="Aruba">Aruba</option>
+													<option value="Australia">Australia</option>
+													<option value="Austria">Austria</option>
+													<option value="Azerbaijan">Azerbaijan</option>
+													<option value="Bahamas">Bahamas</option>
+													<option value="Bahrain">Bahrain</option>
+													<option value="Bangladesh" selected>Bangladesh</option>
+													<option value="Barbados">Barbados</option>
+													<option value="Belarus">Belarus</option>
+													<option value="Belgium">Belgium</option>
+													<option value="Belize">Belize</option>
+													<option value="Benin">Benin</option>
+													<option value="Bermuda">Bermuda</option>
+													<option value="Bhutan">Bhutan</option>
+													<option value="Bolivia">Bolivia</option>
+													<option value="Bonaire">Bonaire</option>
+													<option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+													<option value="Botswana">Botswana</option>
+													<option value="Brazil">Brazil</option>
+													<option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+													<option value="Brunei">Brunei</option>
+													<option value="Bulgaria">Bulgaria</option>
+													<option value="Burkina Faso">Burkina Faso</option>
+													<option value="Burundi">Burundi</option>
+													<option value="Cambodia">Cambodia</option>
+													<option value="Cameroon">Cameroon</option>
+													<option value="Canada">Canada</option>
+													<option value="Canary Islands">Canary Islands</option>
+													<option value="Cape Verde">Cape Verde</option>
+													<option value="Cayman Islands">Cayman Islands</option>
+													<option value="Central African Republic">Central African Republic</option>
+													<option value="Chad">Chad</option>
+													<option value="Channel Islands">Channel Islands</option>
+													<option value="Chile">Chile</option>
+													<option value="China">China</option>
+													<option value="Christmas Island">Christmas Island</option>
+													<option value="Cocos Island">Cocos Island</option>
+													<option value="Colombia">Colombia</option>
+													<option value="Comoros">Comoros</option>
+													<option value="Congo">Congo</option>
+													<option value="Cook Islands">Cook Islands</option>
+													<option value="Costa Rica">Costa Rica</option>
+													<option value="Cote DIvoire">Cote DIvoire</option>
+													<option value="Croatia">Croatia</option>
+													<option value="Cuba">Cuba</option>
+													<option value="Curaco">Curacao</option>
+													<option value="Cyprus">Cyprus</option>
+													<option value="Czech Republic">Czech Republic</option>
+													<option value="Denmark">Denmark</option>
+													<option value="Djibouti">Djibouti</option>
+													<option value="Dominica">Dominica</option>
+													<option value="Dominican Republic">Dominican Republic</option>
+													<option value="East Timor">East Timor</option>
+													<option value="Ecuador">Ecuador</option>
+													<option value="Egypt">Egypt</option>
+													<option value="El Salvador">El Salvador</option>
+													<option value="Equatorial Guinea">Equatorial Guinea</option>
+													<option value="Eritrea">Eritrea</option>
+													<option value="Estonia">Estonia</option>
+													<option value="Ethiopia">Ethiopia</option>
+													<option value="Falkland Islands">Falkland Islands</option>
+													<option value="Faroe Islands">Faroe Islands</option>
+													<option value="Fiji">Fiji</option>
+													<option value="Finland">Finland</option>
+													<option value="France">France</option>
+													<option value="French Guiana">French Guiana</option>
+													<option value="French Polynesia">French Polynesia</option>
+													<option value="French Southern Ter">French Southern Ter</option>
+													<option value="Gabon">Gabon</option>
+													<option value="Gambia">Gambia</option>
+													<option value="Georgia">Georgia</option>
+													<option value="Germany">Germany</option>
+													<option value="Ghana">Ghana</option>
+													<option value="Gibraltar">Gibraltar</option>
+													<option value="Great Britain">Great Britain</option>
+													<option value="Greece">Greece</option>
+													<option value="Greenland">Greenland</option>
+													<option value="Grenada">Grenada</option>
+													<option value="Guadeloupe">Guadeloupe</option>
+													<option value="Guam">Guam</option>
+													<option value="Guatemala">Guatemala</option>
+													<option value="Guinea">Guinea</option>
+													<option value="Guyana">Guyana</option>
+													<option value="Haiti">Haiti</option>
+													<option value="Hawaii">Hawaii</option>
+													<option value="Honduras">Honduras</option>
+													<option value="Hong Kong">Hong Kong</option>
+													<option value="Hungary">Hungary</option>
+													<option value="Iceland">Iceland</option>
+													<option value="Indonesia">Indonesia</option>
+													<option value="India">India</option>
+													<option value="Iran">Iran</option>
+													<option value="Iraq">Iraq</option>
+													<option value="Ireland">Ireland</option>
+													<option value="Isle of Man">Isle of Man</option>
+													<option value="Israel">Israel</option>
+													<option value="Italy">Italy</option>
+													<option value="Jamaica">Jamaica</option>
+													<option value="Japan">Japan</option>
+													<option value="Jordan">Jordan</option>
+													<option value="Kazakhstan">Kazakhstan</option>
+													<option value="Kenya">Kenya</option>
+													<option value="Kiribati">Kiribati</option>
+													<option value="Korea North">Korea North</option>
+													<option value="Korea Sout">Korea South</option>
+													<option value="Kuwait">Kuwait</option>
+													<option value="Kyrgyzstan">Kyrgyzstan</option>
+													<option value="Laos">Laos</option>
+													<option value="Latvia">Latvia</option>
+													<option value="Lebanon">Lebanon</option>
+													<option value="Lesotho">Lesotho</option>
+													<option value="Liberia">Liberia</option>
+													<option value="Libya">Libya</option>
+													<option value="Liechtenstein">Liechtenstein</option>
+													<option value="Lithuania">Lithuania</option>
+													<option value="Luxembourg">Luxembourg</option>
+													<option value="Macau">Macau</option>
+													<option value="Macedonia">Macedonia</option>
+													<option value="Madagascar">Madagascar</option>
+													<option value="Malaysia">Malaysia</option>
+													<option value="Malawi">Malawi</option>
+													<option value="Maldives">Maldives</option>
+													<option value="Mali">Mali</option>
+													<option value="Malta">Malta</option>
+													<option value="Marshall Islands">Marshall Islands</option>
+													<option value="Martinique">Martinique</option>
+													<option value="Mauritania">Mauritania</option>
+													<option value="Mauritius">Mauritius</option>
+													<option value="Mayotte">Mayotte</option>
+													<option value="Mexico">Mexico</option>
+													<option value="Midway Islands">Midway Islands</option>
+													<option value="Moldova">Moldova</option>
+													<option value="Monaco">Monaco</option>
+													<option value="Mongolia">Mongolia</option>
+													<option value="Montserrat">Montserrat</option>
+													<option value="Morocco">Morocco</option>
+													<option value="Mozambique">Mozambique</option>
+													<option value="Myanmar">Myanmar</option>
+													<option value="Nambia">Nambia</option>
+													<option value="Nauru">Nauru</option>
+													<option value="Nepal">Nepal</option>
+													<option value="Netherland Antilles">Netherland Antilles</option>
+													<option value="Netherlands">Netherlands (Holland, Europe)</option>
+													<option value="Nevis">Nevis</option>
+													<option value="New Caledonia">New Caledonia</option>
+													<option value="New Zealand">New Zealand</option>
+													<option value="Nicaragua">Nicaragua</option>
+													<option value="Niger">Niger</option>
+													<option value="Nigeria">Nigeria</option>
+													<option value="Niue">Niue</option>
+													<option value="Norfolk Island">Norfolk Island</option>
+													<option value="Norway">Norway</option>
+													<option value="Oman">Oman</option>
+													<option value="Pakistan">Pakistan</option>
+													<option value="Palau Island">Palau Island</option>
+													<option value="Palestine">Palestine</option>
+													<option value="Panama">Panama</option>
+													<option value="Papua New Guinea">Papua New Guinea</option>
+													<option value="Paraguay">Paraguay</option>
+													<option value="Peru">Peru</option>
+													<option value="Phillipines">Philippines</option>
+													<option value="Pitcairn Island">Pitcairn Island</option>
+													<option value="Poland">Poland</option>
+													<option value="Portugal">Portugal</option>
+													<option value="Puerto Rico">Puerto Rico</option>
+													<option value="Qatar">Qatar</option>
+													<option value="Republic of Montenegro">Republic of Montenegro</option>
+													<option value="Republic of Serbia">Republic of Serbia</option>
+													<option value="Reunion">Reunion</option>
+													<option value="Romania">Romania</option>
+													<option value="Russia">Russia</option>
+													<option value="Rwanda">Rwanda</option>
+													<option value="St Barthelemy">St Barthelemy</option>
+													<option value="St Eustatius">St Eustatius</option>
+													<option value="St Helena">St Helena</option>
+													<option value="St Kitts-Nevis">St Kitts-Nevis</option>
+													<option value="St Lucia">St Lucia</option>
+													<option value="St Maarten">St Maarten</option>
+													<option value="St Pierre & Miquelon">St Pierre & Miquelon</option>
+													<option value="St Vincent & Grenadines">St Vincent & Grenadines</option>
+													<option value="Saipan">Saipan</option>
+													<option value="Samoa">Samoa</option>
+													<option value="Samoa American">Samoa American</option>
+													<option value="San Marino">San Marino</option>
+													<option value="Sao Tome & Principe">Sao Tome & Principe</option>
+													<option value="Saudi Arabia">Saudi Arabia</option>
+													<option value="Senegal">Senegal</option>
+													<option value="Seychelles">Seychelles</option>
+													<option value="Sierra Leone">Sierra Leone</option>
+													<option value="Singapore">Singapore</option>
+													<option value="Slovakia">Slovakia</option>
+													<option value="Slovenia">Slovenia</option>
+													<option value="Solomon Islands">Solomon Islands</option>
+													<option value="Somalia">Somalia</option>
+													<option value="South Africa">South Africa</option>
+													<option value="Spain">Spain</option>
+													<option value="Sri Lanka">Sri Lanka</option>
+													<option value="Sudan">Sudan</option>
+													<option value="Suriname">Suriname</option>
+													<option value="Swaziland">Swaziland</option>
+													<option value="Sweden">Sweden</option>
+													<option value="Switzerland">Switzerland</option>
+													<option value="Syria">Syria</option>
+													<option value="Tahiti">Tahiti</option>
+													<option value="Taiwan">Taiwan</option>
+													<option value="Tajikistan">Tajikistan</option>
+													<option value="Tanzania">Tanzania</option>
+													<option value="Thailand">Thailand</option>
+													<option value="Togo">Togo</option>
+													<option value="Tokelau">Tokelau</option>
+													<option value="Tonga">Tonga</option>
+													<option value="Trinidad & Tobago">Trinidad & Tobago</option>
+													<option value="Tunisia">Tunisia</option>
+													<option value="Turkey">Turkey</option>
+													<option value="Turkmenistan">Turkmenistan</option>
+													<option value="Turks & Caicos Is">Turks & Caicos Is</option>
+													<option value="Tuvalu">Tuvalu</option>
+													<option value="Uganda">Uganda</option>
+													<option value="United Kingdom">United Kingdom</option>
+													<option value="Ukraine">Ukraine</option>
+													<option value="United Arab Erimates">United Arab Emirates</option>
+													<option value="United States of America">United States of America</option>
+													<option value="Uraguay">Uruguay</option>
+													<option value="Uzbekistan">Uzbekistan</option>
+													<option value="Vanuatu">Vanuatu</option>
+													<option value="Vatican City State">Vatican City State</option>
+													<option value="Venezuela">Venezuela</option>
+													<option value="Vietnam">Vietnam</option>
+													<option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+													<option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
+													<option value="Wake Island">Wake Island</option>
+													<option value="Wallis & Futana Is">Wallis & Futana Is</option>
+													<option value="Yemen">Yemen</option>
+													<option value="Zaire">Zaire</option>
+													<option value="Zambia">Zambia</option>
+													<option value="Zimbabwe">Zimbabwe</option>
+												 </select>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button type="submit" class="default-btn reverse d-block"><span>Find Your Partner</span></button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-12">
+					<div class="banner__thumb banner__thumb--thumb1 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+						<img src="assets/images/banner/01.png" alt="banner">
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div id="documenter_content">
-	<section id="documenter_cover">
-	<h1>Arcon Studio Multi Purpose Landing Template</h1>
-	
-	<div id="documenter_buttons">
+    <!-- ================> Banner section end here <================== -->
+
+
+    <!-- ================> About section start here <================== -->
+	<div class="about padding-top padding-bottom">
+		<div class="container">
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2>Ollya Super Powers</h2>
+				<p>Our dating platform is like a breath of fresh air. Clean and trendy design with ready to use features we are sure you will love.</p>
+			</div>
+			<div class="section__wrapper">
+				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
+					<div class="col wow fadeInUp" data-wow-duration="1.5s">
+						<div class="about__item text-center">
+							<div class="about__inner">
+								<div class="about__thumb">
+									<img src="assets/images/about/01.jpg" alt="dating thumb">
+								</div>
+								<div class="about__content">
+									<h4>Simple To Use</h4>
+									<p>Simple steps to follow to have a matching connection.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col wow fadeInUp" data-wow-duration="1.5s">
+						<div class="about__item text-center">
+							<div class="about__inner">
+								<div class="about__thumb">
+									<img src="assets/images/about/02.jpg" alt="dating thumb">
+								</div>
+								<div class="about__content">
+									<h4>Smart Matching</h4>
+									<p>Create connections with users that are like you.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col wow fadeInUp" data-wow-duration="1.5s">
+						<div class="about__item text-center">
+							<div class="about__inner">
+								<div class="about__thumb">
+									<img src="assets/images/about/03.jpg" alt="dating thumb">
+								</div>
+								<div class="about__content">
+									<h4>Filter Very Fast</h4>
+									<p>Don’t waste your time! Find only what you are interested</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col wow fadeInUp" data-wow-duration="1.5.5s">
+						<div class="about__item text-center">
+							<div class="about__inner">
+								<div class="about__thumb">
+									<img src="assets/images/about/04.jpg" alt="dating thumb">
+								</div>
+								<div class="about__content">
+									<h4>Cool Community</h4>
+									<p>BuddyPress network is full of cool members.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ================> About section end here <================== -->
+
+
+    <!-- ================> Work section start here <================== -->
+	<div class="work padding-top padding-bottom bg_img" style="background-image: url(assets/images/bg-img/01.jpg);">
+		<div class="container">
+			<div class="section__header text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2>How Does it Work​</h2>
+			</div>
+			<div class="section__wrapper wow fadeInUp" data-wow-duration="1.5s">
+				<div class="d-xl-flex align-items-start work__area">
+					<div class="nav flex-xl-column nav-pills me-xl-4 work__tablist" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<button class="nav-link" id="work__tab1-tab" data-bs-toggle="pill" data-bs-target="#work__tab1" type="button" role="tab" aria-controls="work__tab1" aria-selected="true"><img src="assets/images/work/01.png" alt="dating thumb" class="me-3"><span>Search Your Partner</span></button>
+						<button class="nav-link active" id="work__tab2-tab" data-bs-toggle="pill" data-bs-target="#work__tab2" type="button" role="tab" aria-controls="work__tab2" aria-selected="false"><img src="assets/images/work/02.png" alt="dating thumb" class="me-3"><span>100% Match People</span></button>
+						<button class="nav-link" id="work__tab3-tab" data-bs-toggle="pill" data-bs-target="#work__tab3" type="button" role="tab" aria-controls="work__tab3" aria-selected="false"><img src="assets/images/work/03.png" alt="dating thumb" class="me-3"><span>Find Out Partner</span></button>
+						<button class="nav-link" id="work__tab4-tab" data-bs-toggle="pill" data-bs-target="#work__tab4" type="button" role="tab" aria-controls="work__tab4" aria-selected="false"><img src="assets/images/work/04.png" alt="dating thumb" class="me-3"><span>Live The Story</span></button>
+					</div>
+					<div class="tab-content work__tabcontent" id="v-pills-tabContent">
+						<div class="tab-pane fade" id="work__tab1" role="tabpanel" aria-labelledby="work__tab1-tab">
+							<div class="work__item">
+								<div class="work__inner">
+									<div class="work__thumb">
+										<img src="assets/images/work/05.png" alt="dating thumb">
+									</div>
+									<div class="work__content">
+										<h3>Search Your Partner</h3>
+										<p>The simple steps to follow to have great experience using ollya. all you have to do is follows your gut and awesome your heart!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade show active" id="work__tab2" role="tabpanel" aria-labelledby="work__tab2-tab">
+							<div class="work__item">
+								<div class="work__inner">
+									<div class="work__thumb">
+										<img src="assets/images/work/06.png" alt="dating thumb">
+									</div>
+									<div class="work__content">
+										<h3>100% Match People</h3>
+										<p>The simple steps to follow to have great experience using ollya. all you have to do is follows your gut and awesome your heart!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="work__tab3" role="tabpanel" aria-labelledby="work__tab3-tab">
+							<div class="work__item">
+								<div class="work__inner">
+									<div class="work__thumb">
+										<img src="assets/images/work/07.png" alt="dating thumb">
+									</div>
+									<div class="work__content">
+										<h3>Find Out Partner</h3>
+										<p>The simple steps to follow to have great experience using ollya. all you have to do is follows your gut and awesome your heart!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="work__tab4" role="tabpanel" aria-labelledby="work__tab4-tab">
+							<div class="work__item">
+								<div class="work__inner">
+									<div class="work__thumb">
+										<img src="assets/images/work/08.png" alt="dating thumb">
+									</div>
+									<div class="work__content">
+										<h3>Live The Story</h3>
+										<p>The simple steps to follow to have great experience using ollya. all you have to do is follows your gut and awesome your heart!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ================> Work section end here <================== -->
+
+
+    <!-- ================> Member section start here <================== -->
+	<div class="member padding-top padding-bottom overflow-hidden">
+		<div class="container">
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2>Most Popular Members</h2>
+				<p>Learn from them and try to make it to this board. This will for sure boost you visibility and increase your chances to find you loved one.</p>
+			</div>
+			<div class="section__wrapper wow fadeInUp" data-wow-duration="1.5s">
+				<ul class="member__buttongroup filters-button-group w-100 d-flex flex-wrap justify-content-center">
+                    <li class="button is-checked filter-btn" data-filter="*"><span class="member__radio"></span> View All <span class="banner__inputlist--icon"><i class="fa-solid fa-venus-mars"></i></span></li>
+                    <li class="button filter-btn" data-filter=".male"><span class="member__radio"></span> Male <span class="banner__inputlist--icon"><i class="fa-solid fa-mars"></i></span></li>
+                    <li class="button filter-btn" data-filter=".female"><span class="member__radio"></span> Female <span class="banner__inputlist--icon"><i class="fa-solid fa-venus"></i></span></li>
+                </ul>
+
+                <div class="member__grid mx-12-none">
+                    <div class="member__item male">
+						<div class="member__inner">
+							<div class="member__thumb">
+								<img src="assets/images/member/male/01.jpg" alt="member-img">
+								<span class="member__activity">Online</span>
+							</div>
+							<div class="member__content">
+								<a href="member-single.html"><h5>Smith Jhonson</h5></a>
+								<p>32 Years old <i class="fa-solid fa-mars"></i></p>
+							</div>
+						</div>
+                    </div>
+                    <div class="member__item female">
+						<div class="member__inner">
+							<div class="member__thumb">
+								<img src="assets/images/member/female/01.jpg" alt="member-img">
+								<span class="member__activity member__activity--ofline">2 days ago</span>
+							</div>
+							<div class="member__content">
+								<a href="member-single.html"><h5>Arika Q Smith</h5></a>
+								<p>22 Years old <i class="fa-solid fa-venus"></i></p>
+							</div>
+						</div>
+                    </div>
+                    <div class="member__item male">
+						<div class="member__inner">
+							<div class="member__thumb">
+								<img src="assets/images/member/male/02.jpg" alt="member-img">
+								<span class="member__activity">Online</span>
+							</div>
+							<div class="member__content">
+								<a href="member-single.html"><h5>William R Show</h5></a>
+								<p>32 Years old <i class="fa-solid fa-mars"></i></p>
+							</div>
+						</div>
+                    </div>
+                    <div class="member__item female">
+						<div class="member__inner">
+							<div class="member__thumb">
+								<img src="assets/images/member/female/02.jpg" alt="member-img">
+								<span class="member__activity member__activity--ofline">10 Minites ago</span>
+							</div>
+							<div class="member__content">
+								<a href="member-single.html"><h5>Karolin Kuhn</h5></a>
+								<p>22 Years old <i class="fa-solid fa-venus"></i></p>
+							</div>
+						</div>
+                    </div>
+                    <div class="member__item male">
+						<div class="member__inner">
+							<div class="member__thumb">
+								<img src="assets/images/member/male/03.jpg" alt="member-img">
+								<span class="member__activity">Online</span>
+							</div>
+							<div class="member__content">
+								<a href="member-single.html"><h5>Dieter Hoover</h5></a>
+								<p>32 Years old <i class="fa-solid fa-mars"></i></p>
+							</div>
+						</div>
+                    </div>
+				</div>
+				<div class="text-center mt-4">
+					<a href="members.html" class="default-btn"><span>See More Popular</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ================> Member section end here <================== -->
+
+
+    <!-- ================> Story section start here <================== -->
+	<div class="story bg_img padding-top padding-bottom" style="background-image: url(assets/images/bg-img/02.jpg);">
+		<div class="container">
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2>Ollya Success Stories</h2>
+				<p>Listen and learn from our community members and find out tips and tricks to meet your love. Join us and be part of a bigger family.</p>
+			</div>
+			<div class="section__wrapper wow fadeInUp" data-wow-duration="1.5s">
+				<div class="row g-4 justify-content-center row-cols-lg-3 row-cols-sm-2 row-cols-1">
+					<div class="col">
+						<div class="story__item">
+							<div class="story__inner">
+								<div class="story__thumb">
+									<a href="blog-single.html"><img src="assets/images/story/01.jpg" alt="dating thumb"></a>
+									<span class="member__activity member__activity--ofline">Entertainment</span>
+								</div>
+								<div class="story__content">
+									<a href="blog-single.html"><h4>Dream places and locations to visit in 2022</h4></a>
+									<div class="story__content--author">
+										<div class="story__content--thumb">
+											<img src="assets/images/story/author/01.jpg" alt="dating thumb">
+										</div>
+										<div class="story__content--content">
+											<h6>Hester Reeves</h6>
+											<p>April 16, 2022</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="story__item">
+							<div class="story__inner">
+								<div class="story__thumb">
+									<a href="blog-single.html"><img src="assets/images/story/02.jpg" alt="dating thumb"></a>
+									<span class="member__activity member__activity--ofline">Love Stories</span>
+								</div>
+								<div class="story__content">
+									<a href="blog-single.html"><h4>Make your dreams come true and monetise quickly</h4></a>
+									<div class="story__content--author">
+										<div class="story__content--thumb">
+											<img src="assets/images/story/author/02.jpg" alt="dating thumb">
+										</div>
+										<div class="story__content--content">
+											<h6>Arika Q Smith</h6>
+											<p>March 14, 2022</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="story__item">
+							<div class="story__inner">
+								<div class="story__thumb">
+									<a href="blog-single.html"><img src="assets/images/story/03.jpg" alt="dating thumb"></a>
+									<span class="member__activity member__activity--ofline">Attraction</span>
+								</div>
+								<div class="story__content">
+									<a href="blog-single.html"><h4>Love looks not with the eyes, but with the mind.</h4></a>
+									<div class="story__content--author">
+										<div class="story__content--thumb">
+											<img src="assets/images/story/author/03.jpg" alt="dating thumb">
+										</div>
+										<div class="story__content--content">
+											<h6>William Show</h6>
+											<p>June 18, 2022</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ================> Story section end here <================== -->
+
+
+    <!-- ================> Meet section start here <================== -->
+	<div class="meet padding-top padding-bottom">
+		<div class="container">
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2>Meet Singles in Your Area</h2>
+				<p>Listen and learn from our community members and find out tips and tricks to meet your love. Join us and be part of a bigger family.</p>
+			</div>
+			<div class="section__wrapper">
+				<div class="row g-4 justify-content-center wow fadeInUp" data-wow-duration="1.5s">
+					<div class="col-lg-6 col-12">
+						<div class="meet__item">
+							<div class="meet__inner">
+								<div class="meet__thumb">
+									<a href="members.html"><img src="assets/images/meet/01.jpg" alt="dating thumb"></a>
+								</div>
+								<div class="meet__content">
+									<img src="assets/images/meet/icon/01.jpg" alt="dating thumb">
+									<a href="members.html"><h4>New York, USA</h4></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-12">
+						<div class="meet__item">
+							<div class="meet__inner">
+								<div class="meet__thumb">
+									<a href="members.html"><img src="assets/images/meet/02.jpg" alt="dating thumb"></a>
+								</div>
+								<div class="meet__content">
+									<img src="assets/images/meet/icon/02.jpg" alt="dating thumb">
+									<a href="members.html"><h4>London, UK</h4></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-12">
+						<div class="meet__item">
+							<div class="meet__inner">
+								<div class="meet__thumb">
+									<a href="members.html"><img src="assets/images/meet/03.jpg" alt="dating thumb"></a>
+								</div>
+								<div class="meet__content">
+									<img src="assets/images/meet/icon/03.jpg" alt="dating thumb">
+									<a href="members.html"><h4>Barcelona, Spain</h4></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-12">
+						<div class="meet__item">
+							<div class="meet__inner">
+								<div class="meet__thumb">
+									<a href="members.html"><img src="assets/images/meet/04.jpg" alt="dating thumb"></a>
+								</div>
+								<div class="meet__content">
+									<img src="assets/images/meet/icon/04.jpg" alt="dating thumb">
+									<a href="members.html"><h4>Taj Mahal, India</h4></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-12">
+						<div class="meet__item">
+							<div class="meet__inner">
+								<div class="meet__thumb">
+									<a href="members.html"><img src="assets/images/meet/05.jpg" alt="dating thumb"></a>
+								</div>
+								<div class="meet__content">
+									<img src="assets/images/meet/icon/05.jpg" alt="dating thumb">
+									<a href="members.html"><h4>Burj Al Arab, Dubai</h4></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-12">
+						<div class="meet__item">
+							<div class="meet__inner">
+								<div class="meet__thumb">
+									<a href="members.html"><img src="assets/images/meet/06.jpg" alt="dating thumb"></a>
+								</div>
+								<div class="meet__content">
+									<img src="assets/images/meet/icon/06.jpg" alt="dating thumb">
+									<a href="members.html"><h4>Paris, France</h4></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center mt-5 wow fadeInUp" data-wow-duration="1.5s">
+					<a href="members.html" class="default-btn"><span>Search Near You</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ================> Meet section end here <================== -->
+
+
+	<!-- ================> Work section start here <================== -->
+	<div class="work work--style2 padding-top padding-bottom bg_img" style="background-image: url(assets/images/bg-img/01.jpg);">
+		<div class="container">
+			<div class="section__wrapper">
+				<div class="row g-4 justify-content-center">
+					<div class="col-xl-6 col-lg-8 col-12 wow fadeInLeft" data-wow-duration="1.5s">
+						<div class="work__item">
+							<div class="work__inner">
+								<div class="work__thumb">
+									<img src="assets/images/work/09.png" alt="dating thumb">
+								</div>
+								<div class="work__content">
+									<h3>Trust And Safety</h3>
+									<p>Choose from one of our membership levels and unlock features you need. </p>
+									<a href="policy.html" class="default-btn"><span>See More Details</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-8 col-12 wow fadeInRight" data-wow-duration="1.5s">
+						<div class="work__item">
+							<div class="work__inner">
+								<div class="work__thumb">
+									<img src="assets/images/work/10.png" alt="dating thumb">
+								</div>
+								<div class="work__content">
+									<h3>Simple Membership</h3>
+									<p>Choose from one of our membership levels and unlock features you need. </p>
+									<a href="membership.html" class="default-btn reverse"><span>Membership Details</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ================> Work section end here <================== -->
+
+
+    <!-- ================> App section start here <================== -->
+	<div class="app padding-top">
+		<div class="container">
+			<div class="row g-4 justify-content-center flex-row-reverse">
+				<div class="col-xxl-6 col-12 wow fadeInUp" data-wow-duration="1.5s">
+					<div class="app__item">
+						<div class="app__inner">
+							<div class="app__content">
+								<h4>Easy Connect To Everyone</h4>
+								<h2>Download App Our Ollya</h2>
+								<p>You find us, finally and you are already in love. More than 5.000.000 around the world already shared the same experience andng ares uses our system Joining us today just got easier!</p>
+								<ul>
+									<li><a href="#"><img src="assets/images/app/01.jpg" alt="dating thumb"></a></li>
+									<li><a href="#"><img src="assets/images/app/02.jpg" alt="dating thumb"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xxl-6 col-12 wow fadeInUp" data-wow-duration="1.5s">
+					<div class="app__item">
+						<div class="app__inner">
+							<div class="app__thumb">
+								<img src="assets/images/app/01.png" alt="dating thumb">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ================> App section end here <================== -->
+
+
+    <!-- ================> Footer section start here <================== -->
+	<footer class="footer overflow-hidden">
+		<div class="footer__top bg_img" style="background-image: url(assets/images/footer/bg-3.jpg)">
+			<div class="footer__newsletter wow fadeInUp" data-wow-duration="1.5s">
+				<div class="container">
+					<div class="row g-4 justify-content-center">
+						<div class="col-lg-6 col-12">
+							<div class="footer__newsletter--area">
+								<div class="footer__newsletter--title">
+									<h4>Newsletter Sign up</h4>
+								</div>
+								<div class="footer__newsletter--form">
+									<form action="#">
+										<input type="email" placeholder="Your email address">
+										<button type="submit" class="default-btn"><span>Subscribe</span></button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-12">
+							<div class="footer__newsletter--area justify-content-xxl-end">
+								<div class="footer__newsletter--title me-xl-4">
+									<h4>Join Community</h4>
+								</div>
+								<div class="footer__newsletter--social">
+									<ul>
+										<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-twitch"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__toparea padding-top padding-bottom wow fadeInUp" data-wow-duration="1.5s">
+				<div class="container">
+					<div class="row g-5 g-lg-0">
+						<div class="col-lg-3 col-sm-6 col-12">
+							<div class="footer__item">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>Our Information</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Customer Reviews</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Success Stories</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Business License</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-12">
+							<div class="footer__item">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>My Account</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Manage Account</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Safety Tips</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Account Varification</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Safety and Security</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Membership Level</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-12">
+							<div class="footer__item">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>Help Center</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Help center</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> FAQ</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Quick Start Guide</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Tutorials</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Associate Blog</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-12">
+							<div class="footer__item">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>Community</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Privacy policy</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> End User Agreements</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Refund Policy</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Cookie policy</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Report abuse</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
-	</div>
-	<hr>
-	<ul>
-	<li>created: 12/1/2017</li>
-	<li>latest update: 12/1/2017</li>
-	<li>by: Designs Ninja</li>
-	<li><a href="https://themeforest.net/user/designsninja">Designs Ninja</a
-    ></li><li>email: <a href="mailto:nadir.jafri@hotmail.com">nadir.jafri@hotmail.com</a></li>
-	</ul>
-	<p>Thank you very much for purchasing our theme! If you have any questions that aren't covered in this documentation, please feel free to email us.</p>
-	</section>
+		<div class="footer__bottom wow fadeInUp" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="footer__content text-center">
+					<p class="mb-0">All Rights Reserved &copy; <a href="index.html">Ollya</a> || Design By: CodexCoder</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!-- ================> Footer section end here <================== -->
+
+
 	
-	<section id="overview">
-	<div class="page-header"><h3>Overview</h3><hr class="notop"></div>
-<p>
-	Arcon Studio High Quality Multi Purpose Landing template based on bootstrap 3. With 20+ different home page layouts, 25+ Html files included Best Idea for small Business, creative Agencies, corporate web solution, personal resume, weddings, restaurant, fitness, web hosting, advertising, travel agency, construction and business agencies. High Resolution Images and google fonts.</p>
-<p>It will be fit any mobile or tablet devices. This is a flexible template uses fresh and clean design.</p>
-<ol style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(71, 71, 71);">
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;"><strong>20+ Different Conpepts:</strong> Modern, Digital Agency, Creative Agency, Minimal Design, Business, App Landing, Architecture, Photography, Resume, Fitness, Agency Portfolio, Shop, One Page Home, Restaurant, Startup Business</li>
-    <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		<strong>Fully responsive</strong></li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		<strong>Built With HTML5 and CSS3</strong></li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		<strong>25+ HTML Files</strong></li>
-	
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		<strong>CSS3 Animation Elements</strong></li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		Working PHP Contact Form with a Simple Email Template,</li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		Includes Entire Font Awesome,</li>
-        <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		Bootstrap 3.3.7</li>
-        
-        <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		Lightbox Photo Gallery.</li>
-        
-        <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		Friendly Sliders and Carousels.</li>
-        
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		500+ Google Material Icons,</li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		Boxed and Wide Portfolio Layouts with animated filters.</li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		Responsive toggle menu for small devices, sticky menu when scrolling down,</li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		Shop Template with <strong>Cart</strong> and <strong>Checkout</strong> Pages.</li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		<span style="font-family: inherit; font-style: inherit; font-weight: inherit; color: rgb(34, 34, 34);">Google Fonts Used,</span></li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		<span style="font-family: inherit; font-style: inherit; font-weight: inherit; color: rgb(34, 34, 34);">Google Map integrated,</span></li>
-	
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		<span style="font-family: inherit; font-style: inherit; font-weight: inherit; color: rgb(34, 34, 34);">Awesome single page for single product view,&nbsp;</span></li>
-	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
-		<span style="color: rgb(34, 34, 34); font-family: inherit; font-style: inherit; font-weight: inherit;">Excellent Customer Supports.</span></li>
-</ol>
-</section>
-<section id="file_code_structure">
-	<div class="page-header"><h3>File & Code Structure</h3><hr class="notop"></div>
-<h4 id="file_code_structure_folders">Folders</h4>
-<pre class="prettyprint lang-plain linenums">
--assets (all assets/required file of this template)
---bootstrap (bootstrap core files)
---css (all css files)
---flexSlider (all flex slider files)
---Slick Slider (all slick slider files)
---fonts (material icons and font-awesome font icon set )
---images (all images)
---js (all javascript files)
---magnific-popup (all files for image popup)
---owl-carousel (owl-carousel core files)
---simple-text-rotator (text rotator plugin)
---videos (html5 video formats)
-- email-templates (a basic email template functional with contact form)
--and all other html files</pre>
-<p>&nbsp;
-	</p>
-<h4 id="file_code_structure_html_structure">HTML Structure</h4>
-<p>
-	Being based on Twitter Bootstrap, Arcon Studio inherits its awesome grid system. It&#39;s a responsive, mobile first &nbsp;grid that appropriately scales up to 12 columns as the device or view port size increases.</p>
-<p>
-	<strong>Example markup:</strong></p>
-<pre class="prettyprint lang-html linenums">
-&lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;col-md-12&quot;&gt;
-       Level 1 column
-       &lt;div class=&quot;row&quot;&gt;
-           &lt;div class=&quot;col-md-6&quot;&gt;Level 2&lt;/div&gt;
-           &lt;div class=&quot;col-md-6&quot;&gt;Level 2&lt;/div&gt;
-       &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</pre>
-<p>&nbsp;
-	</p>
-<p>
-	<strong>CSS Files</strong></p>
-<pre class="prettyprint lang-html linenums">
-&lt;link rel="stylesheet" href="assets/css/master.css&#39;&gt;
-&lt;link rel="stylesheet" href="assets/css/responsive.css&#39;&gt;
+	<!-- All Needed JS -->
+	<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<!-- <script src="assets/js/all.min.js"></script> -->
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/lightcase.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/main.js"></script>
 
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lato:100,300,400,700,900|Merriweather|Parisienne|Playfair+Display:400,700|Source+Sans+Pro:400,700');
-@import url(&quot;../css/bootstrap.min.css&quot;);
-@import url(&quot;../css/font-awesome.min.css&quot;);
-@import url(&quot;../css/custom-icons.min.css&quot;);
-@import url(&quot;../css/transitions.css&quot;);</pre>
-<p>&nbsp;
-	</p>
-<p>
-	<strong>JavaScripts Files</strong></p>
-<pre class="prettyprint lang-html linenums">
-&lt;!-- jQuery Javascript Plugins --&gt;
-&lt;script src=&quot;assets/js/jquery.min.js&quot;&gt;&lt;/script&gt; 
-&lt;script src=&quot;assets/js/validator.js&quot;&gt;&lt;/script&gt; 
-&lt;script src=&quot;assets/js/smoothscroll.js&quot;&gt;&lt;/script&gt; 
-&lt;script src=&quot;assets/js/plugins.js&quot;&gt;&lt;/script&gt; 
-&lt;script src=&quot;assets/js/master.js&quot;&gt;&lt;/script&gt; 
-&lt;script src=&quot;assets/js/bootsnav.js&quot;&gt;&lt;/script&gt;
-</pre>
-<div>
-	&nbsp;</div>
-</section>
-<section id="navigation">
-	<div class="page-header"><h3>Navigation</h3><hr class="notop"></div>
-<p>
-	There are three kind of menu style in this template, Default Menu, Transparent Menu and Full Screen Menu. &nbsp;You need to change some classes to switch menu styles. It&#39;s very easy, here is some example of those menus:<br>
-	<br>
-	The markup of <strong>Default menu:</strong></p>
-<pre class="prettyprint lang-html linenums">
-&lt;!-- Navigation start --&gt;
-&lt;nav class=&quot;navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full&quot;&gt;
-    your menu goes here...
-&lt;/nav&gt;
-&lt;!-- Navigation end --&gt;</pre>
-<p>
-	Just put &quot;<span style="line-height: 19px;">tt-default-nav</span>&quot; class with &quot;navbar-custom&quot; for Default Menu.</p>
-<p>
-	<br>
-	The markup of <strong>Side menu:</strong></p>
-<pre class="prettyprint lang-html linenums">
-&lt;!-- Navigation start --&gt;
-&lt;nav class=&quot;navbar navbar-default navbar-sidebar navbar-scrollspy bootsnav no-full&quot; data-minus-value-desktop=&quot;0&quot; data-minus-value-mobile=&quot;0&quot; data-speed=&quot;1000&quot;&gt;
-  your menu goes here...
-&lt;/nav&gt;
-&lt;!-- Navigation end --&gt;</pre>
-<p>
-	You need to add &quot;<span style="line-height: 19px;">navbar-fixed-top&quot; and &nbsp;&quot;transparent&quot; classes with &quot;</span><span style="line-height: 19px;">navbar-custom&quot; class for get a transparent fixed menu. And &nbsp;also add &quot;white&quot; class for adjust navbar background color and menu item color.<br>
-	<br>
-	You may add two alter logo for adjust logo color and navbar background color(applicable for transparent menu).</span><br>
-	<span style="line-height: 19px;">Here is the sample: </span></p>
-<pre class="prettyprint lang-html linenums">
-&lt;div class=&quot;navbar-header&quot;&gt;
-        &lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar-menu&quot;&gt; &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt; &lt;/button&gt;
-        &lt;div class=&quot;logo&quot;&gt; &lt;a href=&quot;index.html&quot;&gt; &lt;img class=&quot;logo logo-display&quot; src=&quot;assets/images/logo-white.png&quot; alt=&quot;&quot;&gt; &lt;img class=&quot;logo logo-scrolled&quot; src=&quot;assets/images/logo-black.png&quot; alt=&quot;&quot;&gt; &lt;/a&gt; &lt;/div&gt;
-      &lt;/div&gt;</pre>
-<p>&nbsp;
-	</p>
 
-</section>
-<section id="icons">
-	<div class="page-header"><h3>Icons</h3><hr class="notop"></div>
-<p>
-	There are two kinds of font icons used in this template.</p>
-<ol>
-	<li>
-		FontAwesome</li>
-	<li>
-		Material Icons</li>
-</ol>
-<p>
-	<strong>Font Awesome</strong> is a @font-face iconset that allows you to change size and color of the icons just using CSS.</p>
-<p>
-	To add an icon, simply create an empty element with class &#39;fa fa-[icon name]&#39;, for example:&nbsp;</p>
-<pre class="prettyprint lang-html linenums">
-&lt;i class=&quot;fa fa-file&quot;&gt;&lt;/i&gt;
-&lt;i class=&quot;fa fa-home&quot;&gt;&lt;/i&gt;
-&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;</pre>
-<p>&nbsp;
-	</p>
-<p>
-	<strong>Flaticon</strong> is also a @font-face iconset that allows you to change size and color of the icons just using CSS.</p>
-<p>
-	To add an icon, simply create an empty element with class &#39;mdi-[icon name]&#39;, for example:</p>
-<pre class="prettyprint lang-html linenums">
-&lt;i class=&quot;mdi-anchor&quot;&gt;&lt;/i&gt;
-&lt;span class=&quot;mdi-fingerprint&quot;&gt;&lt;/span&gt;</pre>
-</section>
-<section id="hero_units">
-	<div class="page-header"><h3>Hero Units</h3><hr class="notop"></div>
-<p>
-	You can use all hero units (slider sections) at any pages. Just copy the Intro Section or Video Section or Slider section and past it in any pages. You can create new pages with this bolcks.<br>
-	<br>
-	<strong>Example:</strong><br>
-	If you wish to make your homepage with html video slider just copy this code and past it on your new page.</p>
-<pre class="prettyprint lang-html linenums">
-&lt;!------ Video Start ------&gt;
-&lt;section class=&quot;pt-0 pb-0&quot;&gt;
-  &lt;div class=&quot;hero-text-wrap overlay-bg&quot;&gt;
-    &lt;div class=&quot;hero-text white-color&quot;&gt;
-      &lt;div class=&quot;container text-center&quot;&gt;
-        &lt;h3 class=&quot;white-color text-uppercase font-700&quot;&gt;Start your future today&lt;/h3&gt;
-        &lt;h1 class=&quot;white-color&quot;&gt;Arcon Studio&lt;/h1&gt;
-        &lt;p class=&quot;text-center mt-30&quot;&gt;&lt;a class=&quot;btn btn-white btn-circle&quot;&gt;See Our Work&lt;/a&gt;&lt;a class=&quot;btn btn-color btn-circle&quot;&gt;Buy Arcon&lt;/a&gt;&lt;/p&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;homepage-hero-module&quot;&gt;
-    &lt;div class=&quot;video-container&quot;&gt;
-      &lt;div class=&quot;filter&quot;&gt;&lt;/div&gt;
-      &lt;video autoplay loop class=&quot;fillWidth&quot;&gt;
-        &lt;source src=&quot;assets/images/video/video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-        &lt;source src=&quot;assets/images/video/video.webm&quot; type=&quot;video/webm&quot; /&gt;
-      &lt;/video&gt;
-      &lt;div class=&quot;poster hidden&quot;&gt; &lt;img src=&quot;assets/images/video/video.jpg&quot; alt=&quot;video-img&quot;&gt; &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;!------ Video End ------&gt;</pre>
-<p>
-	<strong>Important:</strong> Dont forget to add required <strong>CSS </strong>files and <strong>Javascript</strong> files at header and footer.</p>
-</section>
-<section id="shortcodes">
-	<div class="page-header"><h3>Shortcodes</h3><hr class="notop"></div>
-<p>
-	You will get lots of shortcodes with this template. We made all shortcodes clean and re useable.&nbsp;<br>
-	You can use all shortcodes &nbsp;at anywhere and in any pages of this template. Just copy any block you like and past it any where you wish.<br>
-	<br>
-	<strong>Example:</strong></p>
-<pre class="prettyprint lang-html linenums">
-&lt;!------ Who We Are Start ------&gt;
-  &lt;section class=&quot;first-ico-box&quot;&gt;
-    &lt;div class=&quot;container&quot;&gt;
-      &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-sm-8 section-heading&quot;&gt;
-          &lt;h2 class=&quot;text-uppercase wow fadeInUp&quot; data-wow-delay=&quot;0.1s&quot;&gt;Who We Are&lt;/h2&gt;
-          &lt;h4 class=&quot;text-uppercase source-font wow fadeInUp&quot; data-wow-delay=&quot;0.2s&quot;&gt;- The world at your fingertips -&lt;/h4&gt;
-          &lt;div class=&quot;mt-30 wow fadeInUp&quot; data-wow-delay=&quot;0.3s&quot;&gt;
-            &lt;p&gt;We&rsquo;re nuts about improving your business so we ensure that we track results from day one. Sure, we come up with great creative ideas that engage and captivate your customers, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut magna ultricies pellentesque. &lt;/p&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;row mt-50&quot;&gt;
-        &lt;div class=&quot;col-md-4 feature-box text-center wow fadeInUp&quot; data-wow-delay=&quot;0.1s&quot;&gt; &lt;i class=&quot;mdi mdi-scale font-50px dark-icon&quot;&gt;&lt;/i&gt;
-          &lt;h4 class=&quot;text-uppercase&quot;&gt;STRATEGY&lt;/h4&gt;
-          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;col-md-4 feature-box text-center wow fadeInUp&quot; data-wow-delay=&quot;0.2s&quot;&gt; &lt;i class=&quot;mdi mdi-chart-arc font-50px dark-icon&quot;&gt;&lt;/i&gt;
-          &lt;h4 class=&quot;text-uppercase&quot;&gt;CREATIVELY&lt;/h4&gt;
-          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;col-md-4 feature-box text-center wow fadeInUp&quot; data-wow-delay=&quot;0.3s&quot;&gt; &lt;i class=&quot;mdi mdi-flask-outline font-50px dark-icon&quot;&gt;&lt;/i&gt;
-          &lt;h4 class=&quot;text-uppercase&quot;&gt;PRODUCTIVITY&lt;/h4&gt;
-          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.&lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-  &lt;!------ Who We Are End ------&gt;</pre>
-<p>
-	Just copy this block and past anywhere of any page of this template. You can youse all individual blocks along with this template.&nbsp;</p>
-</section>
-<section id="html5_video">
-	<div class="page-header"><h3>HTML5 Video</h3><hr class="notop"></div>
-<p>
-	The HTML5 &lt;video&gt; element specifies a standard way to embed a video in a web page. You can play a video in your webpage background or any section. &nbsp;You can host video form root server or can add link form other server.&nbsp;</p>
-<p>
-	For browser support you have to provide two format video(.webm/.ogg and .mp4)</p>
-<p>
-	The markup:</p>
-<pre class="prettyprint lang-html linenums">
-&lt;div class=&quot;homepage-hero-module&quot;&gt;
-    &lt;div class=&quot;video-container&quot;&gt;
-      &lt;div class=&quot;filter&quot;&gt;&lt;/div&gt;
-      &lt;video autoplay loop class=&quot;fillWidth&quot;&gt;
-        &lt;source src=&quot;assets/images/video/video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-        &lt;source src=&quot;assets/images/video/video.webm&quot; type=&quot;video/webm&quot; /&gt;
-      &lt;/video&gt;
-      &lt;div class=&quot;poster hidden&quot;&gt; &lt;img src=&quot;assets/images/video/video.jpg&quot; alt=&quot;video-img&quot;&gt; &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;</pre>
-</section>
-
-<section id="google_map">
-	<div class="page-header"><h3>Google Map</h3><hr class="notop"></div>
-<div>
-	We used a dynamic google map in this template. You can easily change your location, address, map marker, map color and almost everything.</div>
-<div>
-	&nbsp;</div>
-<div>
-	First open script.js from assets/js/scripts.js find out &nbsp;/* ======= GOOGLE MAP ======= */ &nbsp;wrapper. &nbsp;</div>
-<div>
-	Put your latitude longitude, put your map marker at $marker_url.</div>
-<div>
-	Write your address in &quot;contentString&quot;. &nbsp;</div>
-<div>
-	You can also change map color form &quot;stylers&quot; &nbsp;zoom options form &quot;map_zoom&quot;</div>
-<div>
-	&nbsp;</div>
-<div>
-	&nbsp;In html put the map &quot;id&quot; in any section and give it a min-height(your desired height)</div>
-<div>
-	&nbsp;</div>
-<div>
-	<strong>JS Markup:&nbsp;</strong></div>
-<div>
-	&nbsp;</div>
-<div>
-	<pre class="prettyprint lang-js linenums">
-/* ==================================================================
-     GOOGLE MAPS 
-     ================================================================== */
-	    if ($('#myMap').length &gt; 0) {
-        //set your google maps parameters
-        var $latitude = 40.716304, //If you unable to find latitude and longitude of your address. Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
-            $longitude = -73.995763,
-            $map_zoom = 16 /* ZOOM SETTING */
-
-        //google map custom marker icon 
-        var $marker_url = 'assets/images/pin.png';
-
-        //we define here the style of the map
-        var style = 
-            [
-		  {
-			&quot;elementType&quot;: &quot;geometry&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#f5f5f5&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;elementType&quot;: &quot;labels.icon&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;visibility&quot;: &quot;off&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#616161&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;elementType&quot;: &quot;labels.text.stroke&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#f5f5f5&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;administrative.country&quot;,
-			&quot;elementType&quot;: &quot;geometry.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#1ec0ff&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;administrative.land_parcel&quot;,
-			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#bdbdbd&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;poi&quot;,
-			&quot;elementType&quot;: &quot;geometry&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#eeeeee&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;poi&quot;,
-			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#757575&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;poi.park&quot;,
-			&quot;elementType&quot;: &quot;geometry&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#e5e5e5&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;poi.park&quot;,
-			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#9e9e9e&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;road&quot;,
-			&quot;elementType&quot;: &quot;geometry&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#ffffff&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;road.arterial&quot;,
-			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#757575&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;road.highway&quot;,
-			&quot;elementType&quot;: &quot;geometry&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#dadada&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;road.highway&quot;,
-			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#616161&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;road.local&quot;,
-			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#9e9e9e&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;transit.line&quot;,
-			&quot;elementType&quot;: &quot;geometry&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#e5e5e5&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;transit.station&quot;,
-			&quot;elementType&quot;: &quot;geometry&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#eeeeee&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;water&quot;,
-			&quot;elementType&quot;: &quot;geometry&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#c9c9c9&quot;
-			  }
-			]
-		  },
-		  {
-			&quot;featureType&quot;: &quot;water&quot;,
-			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
-			&quot;stylers&quot;: [
-			  {
-				&quot;color&quot;: &quot;#9e9e9e&quot;
-			  }
-			]
-		  }
-		];
-
-        //set google map options
-        var map_options = {
-            center: new google.maps.LatLng($latitude, $longitude),
-            zoom: $map_zoom,
-            panControl: true,
-            zoomControl: true,
-            mapTypeControl: true,
-            streetViewControl: true,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            scrollwheel: false,
-            styles: style
-        }
-        //inizialize the map
-        var map = new google.maps.Map(document.getElementById('myMap'), map_options);
-        //add a custom marker to the map                
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng($latitude, $longitude),
-            map: map,
-            visible: true,
-            icon: $marker_url
-        });
-
-        var contentString = '&lt;div id=&quot;mapcontent&quot;&gt;' + '&lt;p&gt;Arcon Studio&lt;/p&gt;&lt;/div&gt;';
-        var infowindow = new google.maps.InfoWindow({
-            maxWidth: 320,
-            content: contentString
-        });
-
-        google.maps.event.addListener(marker, 'click', function() {
-            infowindow.open(map, marker);
-        });
-       
-    }
-	 });</pre>
-	<p>&nbsp;
-		</p>
-	<p>
-		<strong>HTML Markup:</strong></p>
-	<pre class="prettyprint lang-html linenums">
-&lt;!------ Google Maps Start ------&gt;
-&lt;section class=&quot;pt-0 pb-0 map-section&quot;&gt;
-	&lt;div id=&quot;myMap&quot; class=&quot;wide&quot;&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;!------ Google Maps End ------&gt;</pre>
-</div>
-<p>&nbsp;
-	</p>
-</section>
-<section id="contact_form">
-	<div class="page-header"><h3>Contact Form</h3><hr class="notop"></div>
-<p>
-	In <strong>Arcon Studio</strong> HTML5 template there is full functional working contact form. We have also added a simple email template with this contact form.</p>
-<p>
-	To customize/change the email address please open &nbsp;&quot;sendemail.php&quot; file from root folder in any code editor . &nbsp;</p>
-<p>
-	Go to the line number 9. &nbsp;There is a line:&nbsp;</p>
-<pre class="prettyprint lang-html linenums">
-$to         = &#39;&#121;&#111;&#117;&#114;&#101;&#109;&#97;&#105;&#108;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;&#39;; <span style="color: rgb(147, 161, 161); line-height: 18px; background-color: rgb(247, 247, 249);">//put your email here</span></pre>
-<p>
-	Replace the existing email address with your own mailing address.</p>
-<p>
-	Thats it! your template is ready now for receive message from others via mail.</p>
-</section>
-<section id="sources_credits">
-	<div class="page-header"><h3>Sources & Credits</h3><hr class="notop"></div>
-<h4 id="sources_credits_html_css">HTML/CSS</h4>
-<p>
-	<strong>Twitter Bootstrap</strong>:&nbsp;<a href="http://getbootstrap.com/">http://getbootstrap.com/</a></p>
-<p>
-	<strong>animate.css</strong>:&nbsp;<a href="http://daneden.github.io/animate.css/">http://daneden.github.io/animate.css/</a></p>
-<p>&nbsp;
-	</p>
-<h4 id="sources_credits_fonts">Fonts</h4>
-<p>
-	<strong>Google Fonts:</strong>&nbsp;<a href="http://www.google.com/webfonts">http://www.google.com/webfonts</a></p>
-<p>
-	<strong>Font Awesome:</strong>&nbsp;<a href="http://fontawesome.io/">http://fontawesome.io/</a></p>
-<p>
-	<strong>Google Materail Icons:</strong>&nbsp;<a href="https://materialdesignicons.com/">https://materialdesignicons.com/</a></p>
-<p>&nbsp;
-	</p>
-<h4 id="sources_credits_javascripts">JavaScripts</h4>
-<p>
-	<strong>jQuery:</strong>&nbsp;<a href="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js</a></p>
-<p>
-	<strong>jQuery Easing:</strong>&nbsp;<a href="http://gsgd.co.uk/sandbox/jquery/easing/">http://gsgd.co.uk/sandbox/jquery/easing/</a></p>
-<p>
-	<strong>megamenu:</strong>&nbsp;<a href="http://bootsnav.danurstrap.com/">http://bootsnav.danurstrap.com/</a></p>
-<p>
-	<strong>smoothscroll:</strong>&nbsp;<a href="http://cferdinandi.github.io/smooth-scroll/">http://cferdinandi.github.io/smooth-scroll/</a></p>
-<p>
-	<strong>countTo:</strong>&nbsp;<a href="https://github.com/mhuggins/jquery-countTo">https://github.com/mhuggins/jquery-countTo</a></p>
-<p>
-	<strong>stellar:</strong>&nbsp;<a href="http://markdalgleish.com/projects/stellar.js/">http://markdalgleish.com/projects/stellar.js/</a></p>
-<p>
-	<strong>Shuffle:</strong>&nbsp;<a href="http://vestride.github.io/Shuffle/">http://vestride.github.io/Shuffle/</a></p>
-<p>
-	<strong>inview:</strong>&nbsp;<a href="https://github.com/protonet/jquery.inview">https://github.com/protonet/jquery.inview</a></p>
-
-<p>
-	<strong>owl.carousel:</strong>&nbsp;<a href="http://owlgraphic.com/owlcarousel/">http://owlgraphic.com/owlcarousel/</a></p>
-<p>
-	<strong>Photos and Videos</strong></p>
-<p>
-	<strong>Important!&nbsp;</strong></p>
-<div>
-	The images used on the demo site are for demonstration purposes only and are not included in the download file. We have included placeholder images for each instance.</div>
-<div>
-	&nbsp;</div>
-<div>
-	<strong>Slider Images:&nbsp;</strong><a href="https://unsplash.com/">https://unsplash.com/</a>&nbsp;, &nbsp;<a href="http://www.shutterstock.com/">http://www.shutterstock.com/</a>, &nbsp;<a href="http://www.pexels.com/">http://www.pexels.com/</a></div>
-
-<div>
-	Once again, thank you very much for purchasing this template; &nbsp;we&#39;ll be glad to help you if you have any questions.</div>
-<div>
-	If you have a more general question relating to the templates on ThemeForest, please consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</div>
-<div>
-	&nbsp;</div>
-<div>
-	Thanks,</div>
-<div>
-	<strong>Incognito Themes </strong></div>
-</section>
-
-	</div>
+	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+	<script>
+		window.ga = function () {
+			ga.q.push(arguments)
+		};
+		ga.q = [];
+		ga.l = +new Date;
+		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('set', 'anonymizeIp', true);
+		ga('set', 'transport', 'beacon');
+		ga('send', 'pageview')
+	</script>
+	<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 </html>
