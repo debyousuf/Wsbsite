@@ -1,514 +1,730 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Arcon Studio Multi Purpose Landing Template</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Trendy Theme">
+	<meta name="copyright" content="Trendy Theme">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-11-18T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#FF2A40;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-69studio-html5-responsive-agency-template">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#overview" title="Overview">Overview</a></li>
+			<li><a href="#file_code_structure" title="File & Code Structure">File & Code Structure</a>
+				<ul>
+					<li><a href="#file_code_structure_folders">Folders</a></li>
+					<li><a href="#file_code_structure_html_structure">HTML Structure</a></li>
+				</ul>
+			</li>
+			<li><a href="#navigation" title="Navigation">Navigation</a></li>
+			<li><a href="#icons" title="Icons">Icons</a></li>
+			<li><a href="#hero_units" title="Hero Units">Hero Units</a></li>
+			<li><a href="#shortcodes" title="Shortcodes">Shortcodes</a></li>
+			<li><a href="#html5_video" title="HTML5 Video">HTML5 Video</a></li>
+			<li><a href="#google_map" title="Google Map">Google Map</a></li>
+			<li><a href="#contact_form" title="Contact Form">Contact Form</a></li>
+			<li><a href="#sources_credits" title="Sources & Credits">Sources & Credits</a>
+				<ul>
+					<li><a href="#sources_credits_html_css">HTML/CSS</a></li>
+					<li><a href="#sources_credits_fonts">Fonts</a></li>
+					<li><a href="#sources_credits_javascripts">JavaScripts</a></li>
+				</ul>
+			</li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Designs Ninja 2017<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Arcon Studio Multi Purpose Landing Template</h1>
+	
+	<div id="documenter_buttons">
 		
-        <title>Audeck - Auto Service and Car Repair HTML Template</title>
-        <link href="css/collection.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
-		<link rel="icon" type="image/png" href="images/favicon.png">
-    </head>
-    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
-
-        <!-- Sidebar -->
-        <aside class="sidebar sidebar-boxed sidebar-dark">  
-            <ul class="nav sidenav dropable">
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#getting_started" title="Getting Started">Getting Started</a></li>
-                <li><a href="#head_css_structure" title="HEAD CSS Structure">HEAD CSS Structure</a></li>
-                <li><a href="#javascript_structure" title="Javascript Structure">Javascript Structure</a></li>
-				<li><a href="#send-demo-images" title="Real Demo Images">Real Demo Images</a></li>
-                <li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
-                <li><a href="#contact_form" title="Contact Form">Contact Form</a></li>
-                <li><a href="#subscriptions_form" title="Subscriptions Form">Subscriptions Form</a></li>
-                <li><a href="#fonts_used" title="Fonts used">Fonts used</a></li>
-                <li><a href="#color-change-option" title="Main Color Change Option">Main Color Change</a></li>
-                <li><a href="#run-scss" title="How to Run SCSS">How to Run SCSS File</a></li>
-                <li><a href="#slider-edit" title="Owl Carousel Edit Option">Owl Carousel Edit</a></li>
-                <li><a href="#scroll-animation" title="How to Hide Scroll Animation">Scroll Animation</a></li>
-                <li><a href="#preloader-hide" title="How to edit/off Preloader">Preloader</a></li>
-                <li><a href="#speed-optimization" title="Speed Optimization">Speed Optimization</a></li>
-                <li><a href="#google-map" title="How to Add a Google Map">Google Map</a></li>
-                <li><a href="#credits" title="Credits">Credits</a></li>
-                <li><a href="#supports" title="Support">Support</a></li>
-            </ul>
-        </aside>
-        <!-- END Sidebar -->
-
-        <header class="site-header navbar-transparent"> 
-            <!-- Banner -->
-            <div class="banner auto-size" style="background-color: #455aa2">
-                <div class="container-fluid text-white" style="background-color: #455aa2">
-                    <h1 style="margin: 0; padding: 30px 0;"><strong>Audeck</strong> Documentation</h1>
-                </div>
-            </div>
-            <!-- END Banner --> 
-        </header>
+	</div>
+	<hr>
+	<ul>
+	<li>created: 12/1/2017</li>
+	<li>latest update: 12/1/2017</li>
+	<li>by: Designs Ninja</li>
+	<li><a href="https://themeforest.net/user/designsninja">Designs Ninja</a
+    ></li><li>email: <a href="mailto:nadir.jafri@hotmail.com">nadir.jafri@hotmail.com</a></li>
+	</ul>
+	<p>Thank you very much for purchasing our theme! If you have any questions that aren't covered in this documentation, please feel free to email us.</p>
+	</section>
+	
+	<section id="overview">
+	<div class="page-header"><h3>Overview</h3><hr class="notop"></div>
+<p>
+	Arcon Studio High Quality Multi Purpose Landing template based on bootstrap 3. With 20+ different home page layouts, 25+ Html files included Best Idea for small Business, creative Agencies, corporate web solution, personal resume, weddings, restaurant, fitness, web hosting, advertising, travel agency, construction and business agencies. High Resolution Images and google fonts.</p>
+<p>It will be fit any mobile or tablet devices. This is a flexible template uses fresh and clean design.</p>
+<ol style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(71, 71, 71);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;"><strong>20+ Different Conpepts:</strong> Modern, Digital Agency, Creative Agency, Minimal Design, Business, App Landing, Architecture, Photography, Resume, Fitness, Agency Portfolio, Shop, One Page Home, Restaurant, Startup Business</li>
+    <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<strong>Fully responsive</strong></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<strong>Built With HTML5 and CSS3</strong></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<strong>25+ HTML Files</strong></li>
+	
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<strong>CSS3 Animation Elements</strong></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Working PHP Contact Form with a Simple Email Template,</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Includes Entire Font Awesome,</li>
+        <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Bootstrap 3.3.7</li>
         
-        <main class="container-fluid"> 
-            <!-- Main content -->
-            <article class="main-content" role="main">
-                <section id="introduction">
-                    <h2 style="margin-top: 0; line-height: 45px;">Introduction</h2>
-                    <p><strong>Audeck</strong> is a Modern HTML template for <strong>Auto Servicing, Car Repair &amp; Maintenance</strong> website. It is created for automobile servicing providers who offer <strong>car wash, car service, routine maintenance, truck service, etc</strong>. The template is suitable for individual auto mechanics, car-washing shop, auto repair providers, etc.</p>
-                    <p>Also, this template has a working contact form, well commented, and easily customizable source code with detailed documentation. These features will help to make the template uses and customization based on the ultimate needs.</p>
-                    <h6 style="margin-top: 35px; margin-bottom: 15px;"><strong>Template Features:</strong></h6>
-                    <ul>
-                        <li><strong>Multipage</strong> Demos</li>
-                        <li>Easy to Customize</li>
-                        <li>HTML5 & CSS3</li>
-                        <li>Clean & Simple Design</li>
-                        <li>Fully Responsive Layout</li>
-                        <li>Crossbrowser Compatible with <strong>Edge, IE11+, Firefox, Opera, Chrome</strong></li>
-                        <li>W3 Valid</li>
-                        <li>Retina ready</li>
-                        <li>BoxIcons <strong>Free icons</strong></li>
-                        <li>Powered with Bootstrap <strong>(v5.x)</strong></li>
-                        <li>Powered with jQuery <strong>(v3.6.0)</strong></li>
-                        <li>Build with <strong>Sass</strong></li>
-                        <li>Smooth animation </li>
-                        <li><strong>AJAX contact form Submission</strong></li>
-                        <li><strong>AJAX subscriptions form Submission</strong></li>
-                        <li><strong>Well documented</strong></li>
-                    </ul>
-                </section>
-               
-                <section id="getting_started">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">Getting Started</h3>
-                    </div>
-                    <p>The template folder <strong>audeck</strong> and <strong>audeck-rtl</strong> is available inside the downloaded zip file. Need to unzip the zip file to find the template also the documentation folder.</p>
-                    <p>The <strong>files and folders structure</strong> is similar to the following:</p>
-                    <ol>
-                        <li><strong>assets/css</strong> — folder with CSS files.</li>
-                        <li><strong>assets/fonts</strong> — folder with fonts files.</li>
-                        <li><strong>assets/img</strong> — folder with image files.</li>
-                        <li><strong>assets/js</strong> — folder with Javascript files.</li>
-                        <li><strong>assets/php</strong> — folder with form-process.php files.</li>
-                    </ol>
-                    <p>Upload the template files to the server with the help of one of the FTP-clients like FileZilla.</p>
-                    <h6 style="margin-top: 20px;"><strong>HTML Files:</strong></h6>
-                    <ol>
-                        <li>Home Page One (<b>index.html</b>)</li>
-                        <li>Home Page Two (<b>index-2.html</b>)</li>
-                        <li>Home Page Three (<b>index-3.html</b>)</li>
-                        <li>About (<b>about.html</b>)</li>
-                        <li>Service (<b>service.html</b>)</li>
-                        <li>Service Details (<b>service-details.html</b>)</li>
-                        <li>Pricing (<b>pricing.html</b>)</li>
-                        <li>Blog (<b>blog.html</b>)</li>
-                        <li>Blog Details (<b>blog-details.html</b>)</li>
-                        <li>Testimonial (<b>testimonial.html</b>)</li>
-                        <li>Shop (<b>shop.html</b>)</li>
-                        <li>Shop Details (<b>shop-details.html</b>)</li>
-                        <li>Engineer (<b>engineer.html</b>)</li>
-                        <li>Cart (<b>cart.html</b>)</li>
-                        <li>Checkout (<b>checkout.html</b>)</li>
-                        <li>Sign Up (<b>sign-up.html</b>)</li>
-                        <li>Sign In (<b>sign-in.html</b>)</li>
-                        <li>FAQ (<b>faq.html</b>)</li>
-                        <li>Coming Soon (<b>coming-soon.html</b>)</li>
-                        <li>Privacy Policy (<b>privacy-policy.html</b>)</li>
-                        <li>Terms & Conditions (<b>terms-and-conditions.html</b>)</li>
-                        <li>Contact (<b>contact.html</b>)</li>
-					</ol>
-					<h6 style="margin-top: 20px;"><strong>Files Edit & Upload:</strong></h6>
-                    <p>Individual pages can be customized by opening in a code editor such as VS Code. Once all the customization completed then to make the website live you need to upload the updated project files to the hosting server for your own domain. The files can be uploaded using FTP client such as FileZilla.</p>
-                </section>
-                
-                <section id="head_css_structure">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">HEAD CSS Structure</h3>
-                    </div>
-                    <p>Followings are the <strong>css</strong> files which loaded inside the <strong>Head Section</strong>:</p>
-<pre class="line-numbers">
-<code class="language-markup">
-&lt;!-- Links of CSS files --&gt;
-&lt;link rel="stylesheet" href="assets/css/bootstrap.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/meanmenu.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/boxicons.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/owl.carousel.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/owl.theme.default.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/magnific-popup.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/style.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/responsive.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/theme-dark.css"&gt;
-</code>
-</pre>
-
-                    <p>Followings are the <strong>rtl</strong> files which loaded inside the <strong>Head Section</strong>:</p>
-<pre class="line-numbers">
-<code class="language-markup">
-&lt;!-- Links of CSS files --&gt;
-&lt;link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/meanmenu.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/boxicons.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/owl.carousel.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/owl.theme.default.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/magnific-popup.min.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/style.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/responsive.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/theme-dark.css"&gt;
-&lt;link rel="stylesheet" href="assets/css/rtl.css"&gt;
-</code>
-</pre>
-                </section>
-
-                <section id="javascript_structure">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">Javascript Structure</h3>
-                    </div>
-                    <p>Followings are the <strong>JS</strong> files which loaded before the end of <strong>HEAD or BODY Section:</strong>.</p>
-<pre class="line-numbers">
-<code class="language-markup">
-&lt;!-- Links of JS files --&gt;
-&lt;script src="assets/js/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/jquery.meanmenu.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/jquery.mixitup.min.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/owl.carousel.min.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/jquery.ajaxchimp.min.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/form-validator.min.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/contact-form-script.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/custom.js"&gt;&lt;/script&gt;
-</code>
-</pre>
-                </section>
-				
-                <section id="send-demo-images">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">Do You Want Real Demo Images?</h3>
-                    </div>
-                    <p>Due to the Envato policy, we are unable to include demo images inside the download bundle so for demo images please submit a ticket in <a href="https://support.hibootstrap.com/" target="_blank">https://support.hibootstrap.com/</a>.</p>
-                </section>
-                
-                <section id="html_structure">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">HTML Structure</h3>
-                    </div>
-                    <p>The Audeck is a responsive template and is based on the <strong>Bootstrap Framework</strong>. For more information you can check the <a target="_blank" href="https://getbootstrap.com/"><strong>Bootstrap CSS</strong></a>.</p>
-                    <p>The general template structure is the same throughout the template and each of the part is under a section with a section id name. Here is the <strong>general structure:</strong></p>
-<pre class="line-numbers">
-<code class="language-markup">
-&lt;!-- Start Project Start Area --&gt;
-&lt;div class="address-area"&gt;
-    &lt;div class="container"&gt;
-        &lt;div class="row"&gt;
-            &lt;div class="col-sm-6 col-lg-4"&gt;
-                &lt;div class="address-item"&gt;
-                    &lt;i class='bx bxs-paper-plane'&gt;&lt;/i&gt;
-                    &lt;h3&gt;Location&lt;/h3&gt;
-                    &lt;span&gt;Quadra,Toronto,Canada Victiria Canada&lt;/span&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class="col-sm-6 col-lg-4"&gt;
-                &lt;div class="address-item"&gt;
-                    &lt;i class='bx bxs-phone-call'&gt;&lt;/i&gt;
-                    &lt;h3&gt;Call Us&lt;/h3&gt;
-                    &lt;a href="tel:+0755543332322"&gt;+07 5554 3332 322&lt;/a&gt;
-                    &lt;a href="tel:+0525543452892"&gt;+05 2554 3452 892&lt;/a&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4"&gt;
-                &lt;div class="address-item address-one"&gt;
-                    &lt;i class='bx bxs-time-five'&gt;&lt;/i&gt;
-                    &lt;h3&gt;Schedule&lt;/h3&gt;
-                    &lt;span&gt;Monday to Sunday&lt;/span&gt;
-                    &lt;span&gt;10:00AM to 6.00 PM&lt;/span&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
+        <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Lightbox Photo Gallery.</li>
+        
+        <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Friendly Sliders and Carousels.</li>
+        
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		500+ Google Material Icons,</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Boxed and Wide Portfolio Layouts with animated filters.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Responsive toggle menu for small devices, sticky menu when scrolling down,</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Shop Template with <strong>Cart</strong> and <strong>Checkout</strong> Pages.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="font-family: inherit; font-style: inherit; font-weight: inherit; color: rgb(34, 34, 34);">Google Fonts Used,</span></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="font-family: inherit; font-style: inherit; font-weight: inherit; color: rgb(34, 34, 34);">Google Map integrated,</span></li>
+	
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="font-family: inherit; font-style: inherit; font-weight: inherit; color: rgb(34, 34, 34);">Awesome single page for single product view,&nbsp;</span></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="color: rgb(34, 34, 34); font-family: inherit; font-style: inherit; font-weight: inherit;">Excellent Customer Supports.</span></li>
+</ol>
+</section>
+<section id="file_code_structure">
+	<div class="page-header"><h3>File & Code Structure</h3><hr class="notop"></div>
+<h4 id="file_code_structure_folders">Folders</h4>
+<pre class="prettyprint lang-plain linenums">
+-assets (all assets/required file of this template)
+--bootstrap (bootstrap core files)
+--css (all css files)
+--flexSlider (all flex slider files)
+--Slick Slider (all slick slider files)
+--fonts (material icons and font-awesome font icon set )
+--images (all images)
+--js (all javascript files)
+--magnific-popup (all files for image popup)
+--owl-carousel (owl-carousel core files)
+--simple-text-rotator (text rotator plugin)
+--videos (html5 video formats)
+- email-templates (a basic email template functional with contact form)
+-and all other html files</pre>
+<p>&nbsp;
+	</p>
+<h4 id="file_code_structure_html_structure">HTML Structure</h4>
+<p>
+	Being based on Twitter Bootstrap, Arcon Studio inherits its awesome grid system. It&#39;s a responsive, mobile first &nbsp;grid that appropriately scales up to 12 columns as the device or view port size increases.</p>
+<p>
+	<strong>Example markup:</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+       Level 1 column
+       &lt;div class=&quot;row&quot;&gt;
+           &lt;div class=&quot;col-md-6&quot;&gt;Level 2&lt;/div&gt;
+           &lt;div class=&quot;col-md-6&quot;&gt;Level 2&lt;/div&gt;
+       &lt;/div&gt;
     &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- End Project Start Area --&gt;
-</code>
+&lt;/div&gt;</pre>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>CSS Files</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;link rel="stylesheet" href="assets/css/master.css&#39;&gt;
+&lt;link rel="stylesheet" href="assets/css/responsive.css&#39;&gt;
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lato:100,300,400,700,900|Merriweather|Parisienne|Playfair+Display:400,700|Source+Sans+Pro:400,700');
+@import url(&quot;../css/bootstrap.min.css&quot;);
+@import url(&quot;../css/font-awesome.min.css&quot;);
+@import url(&quot;../css/custom-icons.min.css&quot;);
+@import url(&quot;../css/transitions.css&quot;);</pre>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>JavaScripts Files</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- jQuery Javascript Plugins --&gt;
+&lt;script src=&quot;assets/js/jquery.min.js&quot;&gt;&lt;/script&gt; 
+&lt;script src=&quot;assets/js/validator.js&quot;&gt;&lt;/script&gt; 
+&lt;script src=&quot;assets/js/smoothscroll.js&quot;&gt;&lt;/script&gt; 
+&lt;script src=&quot;assets/js/plugins.js&quot;&gt;&lt;/script&gt; 
+&lt;script src=&quot;assets/js/master.js&quot;&gt;&lt;/script&gt; 
+&lt;script src=&quot;assets/js/bootsnav.js&quot;&gt;&lt;/script&gt;
 </pre>
-                </section>
- 
-                <section id="contact_form">
-                <div class="page-header">
-                    <h3 style="margin-top: 0; margin-bottom: 12px;">Contact Form Strong</h3>
-                </div>
-                <p>The Contact form <strong>html</strong> code coming with jQuery form validation. Also, it's included a .php file<strong>(form-process.php)</strong> for AJAX based email sending! HTML code example is similar to followings:</p>
-<pre class="line-numbers">
-<code class="language-markup">
-&lt;form id="contactForm"&gt;
-    &lt;div class="row"&gt;
-        &lt;div class="col-sm-6 col-lg-12"&gt;
-            &lt;div class="form-group"&gt;
-                &lt;input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Name"&gt;
-                &lt;div class="help-block with-errors"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
+<div>
+	&nbsp;</div>
+</section>
+<section id="navigation">
+	<div class="page-header"><h3>Navigation</h3><hr class="notop"></div>
+<p>
+	There are three kind of menu style in this template, Default Menu, Transparent Menu and Full Screen Menu. &nbsp;You need to change some classes to switch menu styles. It&#39;s very easy, here is some example of those menus:<br>
+	<br>
+	The markup of <strong>Default menu:</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Navigation start --&gt;
+&lt;nav class=&quot;navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full&quot;&gt;
+    your menu goes here...
+&lt;/nav&gt;
+&lt;!-- Navigation end --&gt;</pre>
+<p>
+	Just put &quot;<span style="line-height: 19px;">tt-default-nav</span>&quot; class with &quot;navbar-custom&quot; for Default Menu.</p>
+<p>
+	<br>
+	The markup of <strong>Side menu:</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Navigation start --&gt;
+&lt;nav class=&quot;navbar navbar-default navbar-sidebar navbar-scrollspy bootsnav no-full&quot; data-minus-value-desktop=&quot;0&quot; data-minus-value-mobile=&quot;0&quot; data-speed=&quot;1000&quot;&gt;
+  your menu goes here...
+&lt;/nav&gt;
+&lt;!-- Navigation end --&gt;</pre>
+<p>
+	You need to add &quot;<span style="line-height: 19px;">navbar-fixed-top&quot; and &nbsp;&quot;transparent&quot; classes with &quot;</span><span style="line-height: 19px;">navbar-custom&quot; class for get a transparent fixed menu. And &nbsp;also add &quot;white&quot; class for adjust navbar background color and menu item color.<br>
+	<br>
+	You may add two alter logo for adjust logo color and navbar background color(applicable for transparent menu).</span><br>
+	<span style="line-height: 19px;">Here is the sample: </span></p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;navbar-header&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar-menu&quot;&gt; &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt; &lt;/button&gt;
+        &lt;div class=&quot;logo&quot;&gt; &lt;a href=&quot;index.html&quot;&gt; &lt;img class=&quot;logo logo-display&quot; src=&quot;assets/images/logo-white.png&quot; alt=&quot;&quot;&gt; &lt;img class=&quot;logo logo-scrolled&quot; src=&quot;assets/images/logo-black.png&quot; alt=&quot;&quot;&gt; &lt;/a&gt; &lt;/div&gt;
+      &lt;/div&gt;</pre>
+<p>&nbsp;
+	</p>
 
-        &lt;div class="col-sm-6 col-lg-12"&gt;
-            &lt;div class="form-group"&gt;
-                &lt;input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Email"&gt;
-                &lt;div class="help-block with-errors"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-        &lt;div class="col-sm-6 col-lg-12"&gt;
-            &lt;div class="form-group"&gt;
-                &lt;input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Phone"&gt;
-                &lt;div class="help-block with-errors"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-        &lt;div class="col-sm-6 col-lg-12"&gt;
-            &lt;div class="form-group"&gt;
-                &lt;input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Subject"&gt;
-                &lt;div class="help-block with-errors"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-        &lt;div class="col-md-12 col-lg-12"&gt;
-            &lt;div class="form-group"&gt;
-                &lt;textarea name="message" class="form-control" id="message" cols="30" rows="8" required data-error="Write your message" placeholder="Message"&gt;&lt;/textarea&gt;
-                &lt;div class="help-block with-errors"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-        &lt;div class="col-md-12 col-lg-12"&gt;
-            &lt;button type="submit" class="contact-btn btn"&gt;
-            Send Message
-            &lt;/button&gt;
-            &lt;div id="msgSubmit" class="h3 text-center hidden"&gt;&lt;/div&gt;
-            &lt;div class="clearfix"&gt;&lt;/div&gt;
-        &lt;/div&gt;
+</section>
+<section id="icons">
+	<div class="page-header"><h3>Icons</h3><hr class="notop"></div>
+<p>
+	There are two kinds of font icons used in this template.</p>
+<ol>
+	<li>
+		FontAwesome</li>
+	<li>
+		Material Icons</li>
+</ol>
+<p>
+	<strong>Font Awesome</strong> is a @font-face iconset that allows you to change size and color of the icons just using CSS.</p>
+<p>
+	To add an icon, simply create an empty element with class &#39;fa fa-[icon name]&#39;, for example:&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;i class=&quot;fa fa-file&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-home&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;</pre>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>Flaticon</strong> is also a @font-face iconset that allows you to change size and color of the icons just using CSS.</p>
+<p>
+	To add an icon, simply create an empty element with class &#39;mdi-[icon name]&#39;, for example:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;i class=&quot;mdi-anchor&quot;&gt;&lt;/i&gt;
+&lt;span class=&quot;mdi-fingerprint&quot;&gt;&lt;/span&gt;</pre>
+</section>
+<section id="hero_units">
+	<div class="page-header"><h3>Hero Units</h3><hr class="notop"></div>
+<p>
+	You can use all hero units (slider sections) at any pages. Just copy the Intro Section or Video Section or Slider section and past it in any pages. You can create new pages with this bolcks.<br>
+	<br>
+	<strong>Example:</strong><br>
+	If you wish to make your homepage with html video slider just copy this code and past it on your new page.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!------ Video Start ------&gt;
+&lt;section class=&quot;pt-0 pb-0&quot;&gt;
+  &lt;div class=&quot;hero-text-wrap overlay-bg&quot;&gt;
+    &lt;div class=&quot;hero-text white-color&quot;&gt;
+      &lt;div class=&quot;container text-center&quot;&gt;
+        &lt;h3 class=&quot;white-color text-uppercase font-700&quot;&gt;Start your future today&lt;/h3&gt;
+        &lt;h1 class=&quot;white-color&quot;&gt;Arcon Studio&lt;/h1&gt;
+        &lt;p class=&quot;text-center mt-30&quot;&gt;&lt;a class=&quot;btn btn-white btn-circle&quot;&gt;See Our Work&lt;/a&gt;&lt;a class=&quot;btn btn-color btn-circle&quot;&gt;Buy Arcon&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-&lt;/form&gt;
-</code>
-</pre>
-                </section>
+  &lt;/div&gt;
+  &lt;div class=&quot;homepage-hero-module&quot;&gt;
+    &lt;div class=&quot;video-container&quot;&gt;
+      &lt;div class=&quot;filter&quot;&gt;&lt;/div&gt;
+      &lt;video autoplay loop class=&quot;fillWidth&quot;&gt;
+        &lt;source src=&quot;assets/images/video/video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        &lt;source src=&quot;assets/images/video/video.webm&quot; type=&quot;video/webm&quot; /&gt;
+      &lt;/video&gt;
+      &lt;div class=&quot;poster hidden&quot;&gt; &lt;img src=&quot;assets/images/video/video.jpg&quot; alt=&quot;video-img&quot;&gt; &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!------ Video End ------&gt;</pre>
+<p>
+	<strong>Important:</strong> Dont forget to add required <strong>CSS </strong>files and <strong>Javascript</strong> files at header and footer.</p>
+</section>
+<section id="shortcodes">
+	<div class="page-header"><h3>Shortcodes</h3><hr class="notop"></div>
+<p>
+	You will get lots of shortcodes with this template. We made all shortcodes clean and re useable.&nbsp;<br>
+	You can use all shortcodes &nbsp;at anywhere and in any pages of this template. Just copy any block you like and past it any where you wish.<br>
+	<br>
+	<strong>Example:</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;!------ Who We Are Start ------&gt;
+  &lt;section class=&quot;first-ico-box&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-sm-8 section-heading&quot;&gt;
+          &lt;h2 class=&quot;text-uppercase wow fadeInUp&quot; data-wow-delay=&quot;0.1s&quot;&gt;Who We Are&lt;/h2&gt;
+          &lt;h4 class=&quot;text-uppercase source-font wow fadeInUp&quot; data-wow-delay=&quot;0.2s&quot;&gt;- The world at your fingertips -&lt;/h4&gt;
+          &lt;div class=&quot;mt-30 wow fadeInUp&quot; data-wow-delay=&quot;0.3s&quot;&gt;
+            &lt;p&gt;We&rsquo;re nuts about improving your business so we ensure that we track results from day one. Sure, we come up with great creative ideas that engage and captivate your customers, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut magna ultricies pellentesque. &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row mt-50&quot;&gt;
+        &lt;div class=&quot;col-md-4 feature-box text-center wow fadeInUp&quot; data-wow-delay=&quot;0.1s&quot;&gt; &lt;i class=&quot;mdi mdi-scale font-50px dark-icon&quot;&gt;&lt;/i&gt;
+          &lt;h4 class=&quot;text-uppercase&quot;&gt;STRATEGY&lt;/h4&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4 feature-box text-center wow fadeInUp&quot; data-wow-delay=&quot;0.2s&quot;&gt; &lt;i class=&quot;mdi mdi-chart-arc font-50px dark-icon&quot;&gt;&lt;/i&gt;
+          &lt;h4 class=&quot;text-uppercase&quot;&gt;CREATIVELY&lt;/h4&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4 feature-box text-center wow fadeInUp&quot; data-wow-delay=&quot;0.3s&quot;&gt; &lt;i class=&quot;mdi mdi-flask-outline font-50px dark-icon&quot;&gt;&lt;/i&gt;
+          &lt;h4 class=&quot;text-uppercase&quot;&gt;PRODUCTIVITY&lt;/h4&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  &lt;!------ Who We Are End ------&gt;</pre>
+<p>
+	Just copy this block and past anywhere of any page of this template. You can youse all individual blocks along with this template.&nbsp;</p>
+</section>
+<section id="html5_video">
+	<div class="page-header"><h3>HTML5 Video</h3><hr class="notop"></div>
+<p>
+	The HTML5 &lt;video&gt; element specifies a standard way to embed a video in a web page. You can play a video in your webpage background or any section. &nbsp;You can host video form root server or can add link form other server.&nbsp;</p>
+<p>
+	For browser support you have to provide two format video(.webm/.ogg and .mp4)</p>
+<p>
+	The markup:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;homepage-hero-module&quot;&gt;
+    &lt;div class=&quot;video-container&quot;&gt;
+      &lt;div class=&quot;filter&quot;&gt;&lt;/div&gt;
+      &lt;video autoplay loop class=&quot;fillWidth&quot;&gt;
+        &lt;source src=&quot;assets/images/video/video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        &lt;source src=&quot;assets/images/video/video.webm&quot; type=&quot;video/webm&quot; /&gt;
+      &lt;/video&gt;
+      &lt;div class=&quot;poster hidden&quot;&gt; &lt;img src=&quot;assets/images/video/video.jpg&quot; alt=&quot;video-img&quot;&gt; &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</pre>
+</section>
 
-                <section>
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">AJAX Contact Form</h3>
-                    </div>
-                    <p>File location: <strong>assets/php/form-process.php</strong> file</p>
-                    <img src="images/email.jpg" alt="" class="img-responsive">
-                </section>
+<section id="google_map">
+	<div class="page-header"><h3>Google Map</h3><hr class="notop"></div>
+<div>
+	We used a dynamic google map in this template. You can easily change your location, address, map marker, map color and almost everything.</div>
+<div>
+	&nbsp;</div>
+<div>
+	First open script.js from assets/js/scripts.js find out &nbsp;/* ======= GOOGLE MAP ======= */ &nbsp;wrapper. &nbsp;</div>
+<div>
+	Put your latitude longitude, put your map marker at $marker_url.</div>
+<div>
+	Write your address in &quot;contentString&quot;. &nbsp;</div>
+<div>
+	You can also change map color form &quot;stylers&quot; &nbsp;zoom options form &quot;map_zoom&quot;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;In html put the map &quot;id&quot; in any section and give it a min-height(your desired height)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>JS Markup:&nbsp;</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="prettyprint lang-js linenums">
+/* ==================================================================
+     GOOGLE MAPS 
+     ================================================================== */
+	    if ($('#myMap').length &gt; 0) {
+        //set your google maps parameters
+        var $latitude = 40.716304, //If you unable to find latitude and longitude of your address. Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
+            $longitude = -73.995763,
+            $map_zoom = 16 /* ZOOM SETTING */
 
-                <section id="subscriptions_form">
-                    <div class="page-header">
-                        <h3 style="margin-top: 30px; margin-bottom: 12px;">AJAX Subscriptions Form</h3>
-                    </div>
-                    <p style="margin-bottom: 30px;"><a href="https://mailchimp.com/help/add-a-signup-form-to-your-website/" target="_blank" style="color:#07a;">https://mailchimp.com/help/add-a-signup-form-to-your-website/</a></p>
-                    <img src="images/1.png" alt="" class="img-responsive">
-                </section>
-				
-				<section>
-                    <h3 style="margin-bottom: 30px;">Paste URL on main.js File</h3>
-                    <img src="images/2.png" alt="" class="img-responsive">
-                </section>
+        //google map custom marker icon 
+        var $marker_url = 'assets/images/pin.png';
 
-                <section id="fonts_used">
-                    <div class="page-header">
-                        <h3 style="margin-top: 30px; margin-bottom: 12px;">Fonts Used</h3>
-                    </div>
-                    <p>By default, the template loads <strong>Poppins</strong> font from Google Web Font Services. The font can be changed based on the website needs. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p>
-                    <p>Font code can be found in the &quot;<strong>style.scss</strong>&quot; file path: assets/css/style.scss</p>
-<pre class="line-numbers">
-<code class="language-css">
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+        //we define here the style of the map
+        var style = 
+            [
+		  {
+			&quot;elementType&quot;: &quot;geometry&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#f5f5f5&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;elementType&quot;: &quot;labels.icon&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;visibility&quot;: &quot;off&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#616161&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;elementType&quot;: &quot;labels.text.stroke&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#f5f5f5&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;administrative.country&quot;,
+			&quot;elementType&quot;: &quot;geometry.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#1ec0ff&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;administrative.land_parcel&quot;,
+			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#bdbdbd&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;poi&quot;,
+			&quot;elementType&quot;: &quot;geometry&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#eeeeee&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;poi&quot;,
+			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#757575&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;poi.park&quot;,
+			&quot;elementType&quot;: &quot;geometry&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#e5e5e5&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;poi.park&quot;,
+			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#9e9e9e&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;road&quot;,
+			&quot;elementType&quot;: &quot;geometry&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#ffffff&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;road.arterial&quot;,
+			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#757575&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;road.highway&quot;,
+			&quot;elementType&quot;: &quot;geometry&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#dadada&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;road.highway&quot;,
+			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#616161&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;road.local&quot;,
+			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#9e9e9e&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;transit.line&quot;,
+			&quot;elementType&quot;: &quot;geometry&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#e5e5e5&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;transit.station&quot;,
+			&quot;elementType&quot;: &quot;geometry&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#eeeeee&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;water&quot;,
+			&quot;elementType&quot;: &quot;geometry&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#c9c9c9&quot;
+			  }
+			]
+		  },
+		  {
+			&quot;featureType&quot;: &quot;water&quot;,
+			&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+			&quot;stylers&quot;: [
+			  {
+				&quot;color&quot;: &quot;#9e9e9e&quot;
+			  }
+			]
+		  }
+		];
 
-$font-family: 'Poppins', sans-serif;
-</code>
-</pre>
-                    <p><b>Note:</b> After SCSS file run then it will be work</p>
-                </section>
-				 
-				<section id="color-change-option">
-					<div class="page-header">
-						<h3 style="margin-top: 0; margin-bottom: 12px;">Main Color Change Option</h3>
-					</div>
-					<p>File path: assets/css/style.scss</p>
-<pre class="line-numbers">
-<code class="language-css">
-$main-color: #333333; (All Primary Color)
-$paragraph-color: #858584; (All Paragraph Color)
-</code>
-</pre>
-                    <p><b>Note:</b> After SCSS file run then it will be work</p>
-                </section>
-				 
-				<section id="run-scss">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">How to Run SCSS File</h3>
-                    </div>
-                    <p>Please open the file Visual Studio Code Editor.</p>
-                    <p>And following the video tutorial.</p>
-                    <p><strong>Here the Link: <a href="https://www.youtube.com/watch?v=0MWmv1Gvv5w" target="_blank">https://www.youtube.com/watch?v=0MWmv1Gvv5w</a></strong></p>
-                </section>
-				 
-				<section id="slider-edit">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">Owl Carousel Edit Option</h3>
-                    </div>
-					<p>File path: assets/js/custom.js</p>
-<pre class="line-numbers">
-<code class="language-css">
-$('.engineer-slider').owlCarousel({
-    items: 4,
-    loop: true,
-    margin: 15,
-    singleItem: true,
-    nav: false,
-    dots: true,
-    smartSpeed: 1000,
-    autoplay: false,
-    autoplayTimeout: 4000,
-    autoplayHoverPause: true,
-    responsive:{
-        0:{
-            items:1,
-        },
-        600:{
-            items:2,
-        },
-        1000:{
-            items:4,
+        //set google map options
+        var map_options = {
+            center: new google.maps.LatLng($latitude, $longitude),
+            zoom: $map_zoom,
+            panControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            streetViewControl: true,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false,
+            styles: style
         }
+        //inizialize the map
+        var map = new google.maps.Map(document.getElementById('myMap'), map_options);
+        //add a custom marker to the map                
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng($latitude, $longitude),
+            map: map,
+            visible: true,
+            icon: $marker_url
+        });
+
+        var contentString = '&lt;div id=&quot;mapcontent&quot;&gt;' + '&lt;p&gt;Arcon Studio&lt;/p&gt;&lt;/div&gt;';
+        var infowindow = new google.maps.InfoWindow({
+            maxWidth: 320,
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, marker);
+        });
+       
     }
-});
-</code>
-</pre>
-                    <p><strong>More Info please browser the link: <a href="https://owlcarousel2.github.io/OwlCarousel2/docs/api-options.html" target="_blank">Owl Carousel Docs Options</a></strong></p>
-                </section>				
-				 
-				<section id="preloader-hide">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">How to edit/off Preloader</h3>
-                    </div>
-                    <p>Please remove or comment the below code file path: assets/js/main.js</p>
-<pre class="line-numbers">
-<code class="language-css">
-// Preloader JS
-jQuery(window).on('load',function(){
-	jQuery(".loader").fadeOut(500);
-});
-</code>
-</pre>
+	 });</pre>
+	<p>&nbsp;
+		</p>
+	<p>
+		<strong>HTML Markup:</strong></p>
+	<pre class="prettyprint lang-html linenums">
+&lt;!------ Google Maps Start ------&gt;
+&lt;section class=&quot;pt-0 pb-0 map-section&quot;&gt;
+	&lt;div id=&quot;myMap&quot; class=&quot;wide&quot;&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;!------ Google Maps End ------&gt;</pre>
+</div>
+<p>&nbsp;
+	</p>
+</section>
+<section id="contact_form">
+	<div class="page-header"><h3>Contact Form</h3><hr class="notop"></div>
+<p>
+	In <strong>Arcon Studio</strong> HTML5 template there is full functional working contact form. We have also added a simple email template with this contact form.</p>
+<p>
+	To customize/change the email address please open &nbsp;&quot;sendemail.php&quot; file from root folder in any code editor . &nbsp;</p>
+<p>
+	Go to the line number 9. &nbsp;There is a line:&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+$to         = &#39;&#121;&#111;&#117;&#114;&#101;&#109;&#97;&#105;&#108;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;&#39;; <span style="color: rgb(147, 161, 161); line-height: 18px; background-color: rgb(247, 247, 249);">//put your email here</span></pre>
+<p>
+	Replace the existing email address with your own mailing address.</p>
+<p>
+	Thats it! your template is ready now for receive message from others via mail.</p>
+</section>
+<section id="sources_credits">
+	<div class="page-header"><h3>Sources & Credits</h3><hr class="notop"></div>
+<h4 id="sources_credits_html_css">HTML/CSS</h4>
+<p>
+	<strong>Twitter Bootstrap</strong>:&nbsp;<a href="http://getbootstrap.com/">http://getbootstrap.com/</a></p>
+<p>
+	<strong>animate.css</strong>:&nbsp;<a href="http://daneden.github.io/animate.css/">http://daneden.github.io/animate.css/</a></p>
+<p>&nbsp;
+	</p>
+<h4 id="sources_credits_fonts">Fonts</h4>
+<p>
+	<strong>Google Fonts:</strong>&nbsp;<a href="http://www.google.com/webfonts">http://www.google.com/webfonts</a></p>
+<p>
+	<strong>Font Awesome:</strong>&nbsp;<a href="http://fontawesome.io/">http://fontawesome.io/</a></p>
+<p>
+	<strong>Google Materail Icons:</strong>&nbsp;<a href="https://materialdesignicons.com/">https://materialdesignicons.com/</a></p>
+<p>&nbsp;
+	</p>
+<h4 id="sources_credits_javascripts">JavaScripts</h4>
+<p>
+	<strong>jQuery:</strong>&nbsp;<a href="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js</a></p>
+<p>
+	<strong>jQuery Easing:</strong>&nbsp;<a href="http://gsgd.co.uk/sandbox/jquery/easing/">http://gsgd.co.uk/sandbox/jquery/easing/</a></p>
+<p>
+	<strong>megamenu:</strong>&nbsp;<a href="http://bootsnav.danurstrap.com/">http://bootsnav.danurstrap.com/</a></p>
+<p>
+	<strong>smoothscroll:</strong>&nbsp;<a href="http://cferdinandi.github.io/smooth-scroll/">http://cferdinandi.github.io/smooth-scroll/</a></p>
+<p>
+	<strong>countTo:</strong>&nbsp;<a href="https://github.com/mhuggins/jquery-countTo">https://github.com/mhuggins/jquery-countTo</a></p>
+<p>
+	<strong>stellar:</strong>&nbsp;<a href="http://markdalgleish.com/projects/stellar.js/">http://markdalgleish.com/projects/stellar.js/</a></p>
+<p>
+	<strong>Shuffle:</strong>&nbsp;<a href="http://vestride.github.io/Shuffle/">http://vestride.github.io/Shuffle/</a></p>
+<p>
+	<strong>inview:</strong>&nbsp;<a href="https://github.com/protonet/jquery.inview">https://github.com/protonet/jquery.inview</a></p>
 
-                    <p>Also, please remove or comment the below code all HTML files</p>
-<pre class="line-numbers">
-<code class="language-css">
-&lt;div class="loader"&gt;
-    &lt;div class="d-table"&gt;
-        &lt;div class="d-table-cell"&gt;
-            &lt;div class="spinner"&gt;
-            &lt;div class="bounce1"&gt;&lt;/div&gt;
-            &lt;div class="bounce2"&gt;&lt;/div&gt;
-            &lt;div class="bounce3"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</code>
-</pre>
-                </section>
-				 
-				<section id="speed-optimization">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">Speed Optimization</h3>
-                    </div>
-					<p>Please optimize all images KB, MB also, use the image size following by placeholder file path: assets/img/..</p>
-					<p>- <a href="https://tinypng.com/" target="_blank">Tinypng</a></p>
-                    <p>Please minify all CSS file path: assets/css/..</p>
-					<p>- <a href="https://cssminifier.com/" target="_blank">CSS Minifier</a></p>
-					<p>Please minify all JS file path: assets/js/..</p>
-					<p>- <a href="https://javascript-minifier.com/" target="_blank">Javascript Minifier</a></p>
-                </section>
-				 
-				<section id="how-to-change-image">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">How to Change Image?</h3>
-                    </div>
-					<p>Please go to the image file 'path: assets/img/...' replace the image which one you want following placeholder image size & name</p>
-                </section>
-				 
-				<section id="flaticon-edit">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">How to Edit Especially For Flaticon</h3>
-                    </div>
-					<p>You won't able to add new flaticon except existing but you can if you want to add from scratch but existing will not work and it's the feature of flaticon. <a href="https://www.flaticon.com/" target="_blank">Flaticon.com</a></a>
-                </section>
-			  
-				<section id="google-map">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">How to Add a Google Map to The Website?</h3>
-                    </div>
-					<p>1. Please go to <a href="https://www.google.com/maps/@24.9045273,91.8611106,15z" target="_blank">maps.google.com</a>. Type the location in the search box and click on <b>Share</b>.</p>
-					<img src="images/maps1.jpg"> 
-					<br>
-					<br>
-					<p>2. In the new window click on <b>Embed a map</b> and copy the HTML code of the map. After that add the HTML file.</p>
-					<img src="images/maps2.jpg"> 
-                </section>
-				 
-				<section id="how-to-change-image">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">How to Add New Updates of Existing Template</h3>
-                    </div>
-					<p>After a certain time, we will update our project based on the latest technology but in your template, you need to update on your own if you want.</p>
-                </section>
-		 
-                <section id="credits">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">Credits</h3>
-                    </div>
-                    <p><strong>Note:</strong> All <strong>images</strong> are used for <strong>preview</strong> purpose only and <strong>not included</strong> in the <strong>final purchase</strong> files.</p>
-                    <p><strong>Images from:</strong><br />
-                        <a target="_blank" href="https://www.freepik.com/">https://www.freepik.com/</a><br />
-                        <a target="_blank" href="https://pixabay.com/">https://pixabay.com/</a><br />
-                        <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a><br />
-                    </p>
-                    <p><strong>Google Fonts:</strong><br/>
-						<a href="https://fonts.google.com/specimen/Poppins" target="_blank">Poppins</a><br>
-					</p>
-                    <p><strong>IconFont</strong><br>
-						<a href="https://boxicons.com/" target="_blank">Boxicons</a><br>
-					</p>
-                </section>
-                
-                <section id="supports">
-                    <div class="page-header">
-                        <h3 style="margin-top: 0; margin-bottom: 12px;">24-Hour Turnaround Support:</h3>
-                    </div>
-					<p>Quick, Dedicated & Professional Support!</p>
-					<p>We only provide support through our ticketing system. Please submit your ticket by visiting the <a href="https://support.hibootstrap.com/" target="_blank">HiBootstrap Support System</a>.</p>
-					<p>For any pre-purchase query, please use live chat on the item demo site also, email, and the item’s comment section on ThemeForest. Thanks!</p>
-                </section>
-            </article>
-            <!-- END Main content --> 
-        </main>
+<p>
+	<strong>owl.carousel:</strong>&nbsp;<a href="http://owlgraphic.com/owlcarousel/">http://owlgraphic.com/owlcarousel/</a></p>
+<p>
+	<strong>Photos and Videos</strong></p>
+<p>
+	<strong>Important!&nbsp;</strong></p>
+<div>
+	The images used on the demo site are for demonstration purposes only and are not included in the download file. We have included placeholder images for each instance.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Slider Images:&nbsp;</strong><a href="https://unsplash.com/">https://unsplash.com/</a>&nbsp;, &nbsp;<a href="http://www.shutterstock.com/">http://www.shutterstock.com/</a>, &nbsp;<a href="http://www.pexels.com/">http://www.pexels.com/</a></div>
 
-        <!-- Footer -->
-        <footer class="site-footer">
-            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <p>Copyright @<script>document.write(new Date().getFullYear())</script>. All right reserved</p>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <ul class="footer-menu">
-                            <li><a href="https://support.hibootstrap.com/" target="_blank">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- END Footer -->
-		
-		
-		<!-- Scripts -->
-        <script src="js/other.js"></script>
-        <script src="js/custom.js"></script>
-    </body>
+<div>
+	Once again, thank you very much for purchasing this template; &nbsp;we&#39;ll be glad to help you if you have any questions.</div>
+<div>
+	If you have a more general question relating to the templates on ThemeForest, please consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Thanks,</div>
+<div>
+	<strong>Incognito Themes </strong></div>
+</section>
+
+	</div>
+</body>
 </html>
